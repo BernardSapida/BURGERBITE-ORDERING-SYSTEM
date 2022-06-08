@@ -1,0 +1,655 @@
+body main {
+  margin: 100px auto;
+  max-width: 1350px;
+  width: 96%;
+}
+
+body main section.section_featured-products {
+  margin: 150px auto 50px auto;
+  width: 100%;
+}
+
+body main section.section_featured-products > h1 {
+  padding: 7px 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 800;
+}
+
+body main section.section_featured-products > h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 3px;
+  width: 30px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+body main section.section_featured-products div.container_featured-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border-radius: 5px;
+  gap: 20px;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_image {
+  width: 150px;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_image img {
+  display: block;
+  margin: auto;
+  max-width: 220px;
+  width: 100%;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description {
+  width: 250px;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description h1 {
+  font-size: 18px;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description div.container_price-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description div.container_price-order p.price {
+  color: var(--primary-light);
+  font-weight: 500;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description div.container_price-order button {
+  padding: 5px 12px;
+  background-color: var(--yellow);
+  font-size: 12px;
+  text-shadow: 0 0 5px var(--tertiary-dark);
+  font-weight: 300;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description div.container_price-order button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description div.container_price-order button span {
+  text-shadow: none;
+}
+
+body main section.section_featured-products div.container_featured-products div.container_products div.container_description div.container_price-order button a {
+  text-decoration: none;
+}
+
+body main section.section_burgers-menu {
+  margin: 50px auto;
+  width: 100%;
+}
+
+body main section.section_burgers-menu > h1 {
+  padding: 7px 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 800;
+}
+
+body main section.section_burgers-menu > h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 3px;
+  width: 30px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border-radius: 5px;
+  gap: 20px;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_image {
+  width: 150px;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_image img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  width: 100%;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description {
+  width: 250px;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description h1 {
+  font-size: 18px;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description div.container_price-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description div.container_price-order p.price {
+  color: var(--primary-light);
+  font-weight: 500;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description div.container_price-order button {
+  padding: 5px 12px;
+  background-color: var(--yellow);
+  font-size: 12px;
+  text-shadow: 0 0 5px var(--tertiary-dark);
+  font-weight: 300;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description div.container_price-order button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description div.container_price-order button span {
+  text-shadow: none;
+}
+
+body main section.section_burgers-menu div.container_burgers-menu div.container_burgers div.container_description div.container_price-order button a {
+  text-decoration: none;
+}
+
+body main section.section_pizza-menu {
+  margin: 50px auto;
+  width: 100%;
+}
+
+body main section.section_pizza-menu > h1 {
+  padding: 7px 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 800;
+}
+
+body main section.section_pizza-menu > h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 3px;
+  width: 30px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border-radius: 5px;
+  gap: 20px;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_image {
+  width: 150px;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_image img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  width: 100%;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description {
+  width: 250px;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description h1 {
+  font-size: 18px;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description div.container_price-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description div.container_price-order p.price {
+  color: var(--primary-light);
+  font-weight: 500;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description div.container_price-order button {
+  padding: 5px 14px;
+  background-color: var(--yellow);
+  font-size: 12px;
+  text-shadow: 0 0 5px var(--tertiary-dark);
+  font-weight: 300;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description div.container_price-order button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description div.container_price-order button span {
+  text-shadow: none;
+}
+
+body main section.section_pizza-menu div.container_pizza-menu div.container_pizza div.container_description div.container_price-order button a {
+  text-decoration: none;
+}
+
+body main section.section_fries-menu {
+  margin: 50px auto;
+  width: 100%;
+}
+
+body main section.section_fries-menu > h1 {
+  padding: 7px 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 800;
+}
+
+body main section.section_fries-menu > h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 3px;
+  width: 30px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+body main section.section_fries-menu div.container_fries-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border-radius: 5px;
+  gap: 20px;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_image {
+  width: 150px;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_image img {
+  display: block;
+  margin: auto;
+  max-height: 140px;
+  height: 100%;
+  max-width: 200px;
+  width: 100%;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description {
+  width: 250px;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description h1 {
+  font-size: 18px;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description div.container_price-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description div.container_price-order p.price {
+  color: var(--primary-light);
+  font-weight: 500;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description div.container_price-order button {
+  padding: 5px 14px;
+  background-color: var(--yellow);
+  font-size: 12px;
+  text-shadow: 0 0 5px var(--tertiary-dark);
+  font-weight: 300;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description div.container_price-order button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description div.container_price-order button span {
+  text-shadow: none;
+}
+
+body main section.section_fries-menu div.container_fries-menu div.container_fries div.container_description div.container_price-order button a {
+  text-decoration: none;
+}
+
+body main section.section_drinks-menu {
+  margin: 50px auto;
+  width: 100%;
+}
+
+body main section.section_drinks-menu > h1 {
+  padding: 7px 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: 800;
+}
+
+body main section.section_drinks-menu > h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 3px;
+  width: 30px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border-radius: 5px;
+  gap: 20px;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_image {
+  width: 150px;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_image img {
+  display: block;
+  margin: auto;
+  max-height: 200px;
+  height: 100%;
+  max-width: 200px;
+  width: 100%;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description {
+  width: 250px;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description h1 {
+  font-size: 18px;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description div.container_price-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description div.container_price-order p.price {
+  color: var(--primary-light);
+  font-weight: 500;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description div.container_price-order button {
+  padding: 5px 14px;
+  background-color: var(--yellow);
+  font-size: 12px;
+  text-shadow: 0 0 5px var(--tertiary-dark);
+  font-weight: 300;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description div.container_price-order button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description div.container_price-order button span {
+  text-shadow: none;
+}
+
+body main section.section_drinks-menu div.container_drinks-menu div.container_drinks div.container_description div.container_price-order button a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body main section p {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body main section p {
+    font-size: 14px !important;
+  }
+  body main section button {
+    font-size: 10px !important;
+  }
+}
+/*# sourceMappingURL=menu.css.map */

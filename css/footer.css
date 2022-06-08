@@ -1,0 +1,198 @@
+body footer.footer_burgerhub {
+  margin: 50px auto;
+  max-width: 1350px;
+  width: 97%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1.2fr .4fr .6fr;
+      grid-template-columns: 1fr 1.2fr .4fr .6fr;
+  gap: 15px 15px;
+}
+
+body footer.footer_burgerhub section {
+  padding: 0 15px;
+}
+
+body footer.footer_burgerhub section.section_footer-description {
+  border-radius: 10px;
+}
+
+body footer.footer_burgerhub section.section_footer-description div.footer_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer.footer_burgerhub section.section_footer-description div.footer_logo img {
+  max-width: 60px;
+  width: 100%;
+}
+
+body footer.footer_burgerhub section.section_footer-description div.footer_logo h1.restaurant-name {
+  line-height: 1;
+  font-family: 'Grenze Gotisch';
+  font-size: 34px;
+  color: var(--yellow);
+}
+
+body footer.footer_burgerhub section.section_footer-description p {
+  margin-top: 12px;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body footer.footer_burgerhub section.section_footer-contact p {
+  margin: 5px 0;
+  padding: 2px 0;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body footer.footer_burgerhub section.section_footer-contact p span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  background: var(--secondary-dark);
+  border-radius: 16px;
+  text-align: center;
+}
+
+body footer.footer_burgerhub section.section_footer-contact p span:hover {
+  background-color: var(--yellow);
+  -webkit-transition: all 550ms ease;
+  transition: all 550ms ease;
+}
+
+body footer.footer_burgerhub section.section_footer-contact p span:hover i {
+  color: var(--primary-dark);
+}
+
+body footer.footer_burgerhub section.section_footer-contact p span > i {
+  color: var(--secondary-light);
+}
+
+body footer.footer_burgerhub section.section_footer-links ul {
+  list-style-type: none;
+}
+
+body footer.footer_burgerhub section.section_footer-links ul li a {
+  color: var(--secondary-light);
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 14px;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+body footer.footer_burgerhub section.section_footer-links ul li a:hover {
+  color: var(--yellow);
+}
+
+body footer.footer_burgerhub section.section_footer-accounts {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  list-style-type: none;
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li {
+  margin: 3px;
+  padding: 3px 0;
+  width: 32px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li:nth-child(1) {
+  background: var(--facebook);
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li:nth-child(1):hover {
+  background: var(--facebook-light);
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li:nth-child(2) {
+  background: var(--twitter);
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li:nth-child(2):hover {
+  background: var(--twitter-light);
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li:nth-child(3) {
+  background: var(--instagram);
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li:nth-child(3):hover {
+  background: var(--instagram-light);
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li:nth-child(4) {
+  background: var(--email);
+}
+
+body footer.footer_burgerhub section.section_footer-accounts ul li:nth-child(4):hover {
+  background: var(--email-light);
+}
+
+@media only screen and (max-width: 750px) {
+  body footer.footer_burgerhub {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body footer.footer_burgerhub {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+  }
+  body footer.footer_burgerhub section p {
+    font-size: 14px;
+  }
+  body footer.footer_burgerhub section h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body footer.footer_burgerhub {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+  }
+  body footer.footer_burgerhub section h1 {
+    font-size: 18px;
+  }
+  body footer.footer_burgerhub section.section_footer-description h1.restaurant-name {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

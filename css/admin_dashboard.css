@@ -1,0 +1,460 @@
+body main {
+  position: relative;
+  margin: 100px auto;
+  max-width: 1350px;
+  width: 96%;
+}
+
+body main section.section_dashboard {
+  margin: 150px 0 50px 0;
+}
+
+body main section.section_dashboard div.container_dashboard-header {
+  margin: 20px auto;
+  text-align: center;
+}
+
+body main section.section_dashboard div.container_dashboard-header h1 {
+  font-weight: 400;
+}
+
+body main section.section_dashboard div.container_dashboard-header p {
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_dashboard div.container_dashboard {
+  margin: auto;
+  max-width: 1340px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards {
+  padding: 20px;
+  max-width: 320px;
+  width: 100%;
+  background: var(--secondary-dark);
+  border-radius: 20px;
+  border: 1px solid var(--tertiary-light);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-title-header, body main section.section_dashboard div.container_dashboard div.container_cards div.card-track {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-title-header p.title {
+  font-weight: 300;
+  line-height: 1;
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-title-header p.badges {
+  padding: 5px 8px;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-title-header p {
+  text-shadow: 0 0 5px var(--tertiary-dark);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-title-header p.income {
+  background: var(--yellow);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-title-header p.clients {
+  background: var(--danger);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-title-header p.incomplete-orders {
+  background: var(--blue);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-title-header p.completed-orders {
+  background: var(--green);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-track p.track-label {
+  font-weight: 200;
+  line-height: 1;
+  color: var(--secondary-light);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-track p.income {
+  color: var(--yellow);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-track p.clients {
+  color: var(--danger);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-track p.incomplete-orders {
+  color: var(--blue);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.card-track p.completed-orders {
+  color: var(--green);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards p.amount {
+  margin: 15px 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.progress-line {
+  width: 100%;
+  height: 7px;
+  background: var(--tertiary-light);
+  border-radius: 5px;
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.progress-line div.progress-line-amount {
+  height: 100%;
+  width: 55%;
+  border-radius: 5px;
+  background: var(--yellow);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.progress-line div.progress-line-clients {
+  height: 100%;
+  width: 65%;
+  border-radius: 5px;
+  background: var(--danger);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.progress-line div.progress-line-incomplete-orders {
+  height: 100%;
+  width: 30%;
+  border-radius: 5px;
+  background: var(--blue);
+}
+
+body main section.section_dashboard div.container_dashboard div.container_cards div.progress-line div.progress-line-total-orders {
+  height: 100%;
+  width: 85%;
+  border-radius: 5px;
+  background: var(--green);
+}
+
+body main section.section_tabular-orders {
+  margin: 50px auto;
+  max-width: 1340px;
+  width: 100%;
+}
+
+body main section.section_tabular-orders div.container_search {
+  position: relative;
+  margin: 20px 0;
+  width: 100%;
+}
+
+body main section.section_tabular-orders div.container_search input[type="text"] {
+  padding: 0 20px;
+  height: 35px;
+  width: 100%;
+  border-radius: 5px;
+  color: var(--primary-dark);
+  border: none;
+}
+
+body main section.section_tabular-orders div.container_search span {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: var(--secondary-dark);
+  border-radius: 0 4px 4px 0;
+}
+
+body main section.section_tabular-orders div.container_tabular-order {
+  position: relative;
+  height: 414px;
+  width: 100%;
+  background: var(--secondary-dark);
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+body main section.section_tabular-orders div.container_tabular-order::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order::-webkit-scrollbar-track {
+  background: var(--tertiary-light);
+}
+
+body main section.section_tabular-orders div.container_tabular-order::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-radius: 10px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table caption {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: var(--table-head);
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th, body main section.section_tabular-orders div.container_tabular-order table tbody tr td {
+  padding: 8px 15px;
+  text-align: left;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr, body main section.section_tabular-orders div.container_tabular-order table tbody tr:not(:last-child) {
+  border-bottom: 1px solid var(--tertiary-light);
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th {
+  font-weight: 400;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(1) {
+  min-width: 52px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(2) {
+  min-width: 93px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(3) {
+  min-width: 150px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(4) {
+  min-width: 181px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(5) {
+  min-width: 121px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(6) {
+  min-width: 105px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(7) {
+  min-width: 105px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(8) {
+  min-width: 185px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(9) {
+  min-width: 115px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table thead tr th:nth-child(10) {
+  min-width: 160px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: var(--secondary-light);
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td:nth-child(9) {
+  line-height: 1;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td:nth-child(9) div.status {
+  margin-right: 5px;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td:nth-child(9) div.pending {
+  background: var(--danger);
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td:nth-child(9) div.processing {
+  background: var(--yellow);
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td:nth-child(9) div.delivering {
+  background: #0444f5;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td:nth-child(9) div.completed {
+  background: #04f504;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td:last-child button {
+  padding: 5px 15px;
+  border: 1px solid var(--secondary-light);
+  background-color: transparent;
+  color: var(--secondary-light);
+  font-size: 14px;
+}
+
+body main section.section_tabular-orders div.container_tabular-order table tbody tr td:last-child button:hover {
+  border: 1px solid var(--primary-light);
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+body main section.section_modal_client-details {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: var(--tertiary-dark);
+  z-index: 1;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details {
+  position: relative;
+  height: 500px;
+  max-width: 700px;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #0a0a0a;
+  overflow: scroll;
+  border-radius: 5px;
+  border: 1px solid var(--tertiary-light);
+}
+
+body main section.section_modal_client-details div.container_modal-client-details::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details::-webkit-scrollbar-track {
+  background: var(--tertiary-light);
+}
+
+body main section.section_modal_client-details div.container_modal-client-details::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-radius: 10px;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details div.container_table-header {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #0a0a0a;
+  z-index: 5;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details div.container_table-header h1 {
+  line-height: 1;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details div.container_table-header button {
+  background-color: transparent;
+  height: auto;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details div.container_table-header button i {
+  font-size: 18px;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details table {
+  margin: 0 20px 20px 20px;
+  border-collapse: collapse;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details table tr {
+  position: relative;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details table tr td {
+  padding: 10px;
+  width: 350px;
+  max-width: 100%;
+  font-weight: 300;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details table tr td:nth-child(2) {
+  color: var(--secondary-light);
+}
+
+body main section.section_modal_client-details div.container_modal-client-details table tr td span {
+  color: inherit;
+  font-size: 10px;
+}
+
+body main section.section_modal_client-details div.container_modal-client-details table tr td form select {
+  padding: 7px 15px;
+  background-color: var(--secondary-dark);
+  border: none;
+  border-radius: 5px;
+  border: 1px solid var(--tertiary-light);
+}
+
+body main section.section_modal_client-details div.container_modal-client-details table tr::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: .5px;
+  background-color: var(--table-head);
+}
+/*# sourceMappingURL=admin_dashboard.css.map */

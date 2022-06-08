@@ -1,0 +1,25 @@
+:root {
+  --primary-dark: hsl(0, 0%, 2%);
+  --secondary-dark: hsl(0, 0%, 4%);
+  --tertiary-dark: hsla(0, 0%, 3%, .9);
+  --primary-light: hsl(0, 0%, 100%);
+  --secondary-light: hsl(0, 0%, 100%, .5);
+  --tertiary-light: hsl(0, 0%, 100%, .1);
+  --gray: hsl(0, 0%, 8%);
+  --table-head: hsl(0, 0%, 10%);
+  --blue: hsl(230, 100%, 67%);
+  --green: hsl(138, 51%, 55%);
+  --yellow: hsl(47, 100%, 44%);
+  --yellow-lighten: hsl(47, 100%, 54%);
+  --danger-light: hsl(349, 80%, 54%);
+  --danger: hsl(349, 100%, 54%);
+  --twitter-light: hsl(203, 87%, 65%);
+  --twitter: hsl(203, 87%, 55%);
+  --facebook-light: hsl(221, 44%, 51%);
+  --facebook: hsl(221, 44%, 41%);
+  --instagram-light: hsl(346, 96%, 72%);
+  --instagram: hsl(346, 96%, 62%);
+  --email-light: hsl(353, 92%, 49%);
+  --email: hsl(353, 92%, 39%);
+}
+/*# sourceMappingURL=main-variables.css.map */

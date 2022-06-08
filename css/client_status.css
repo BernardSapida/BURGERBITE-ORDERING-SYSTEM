@@ -1,0 +1,152 @@
+body main {
+  margin: 100px auto;
+  max-width: 1350px;
+  width: 96%;
+}
+
+body main section.section_order-status {
+  margin: 150px auto 100px auto;
+  max-width: 700px;
+  width: 100%;
+}
+
+body main section.section_order-status div.container_heading-status {
+  margin: 20px 0;
+}
+
+body main section.section_order-status div.container_heading-status p.favicon {
+  text-align: center;
+  font-size: 54px;
+  line-height: 1;
+}
+
+body main section.section_order-status div.container_heading-status p.favicon i {
+  color: var(--yellow);
+}
+
+body main section.section_order-status div.container_heading-status h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+body main section.section_order-status form select {
+  margin-bottom: 12px;
+  padding: 7px 20px;
+  background-color: var(--secondary-dark);
+  border: none;
+  border-radius: 5px;
+}
+
+body main section.section_order-status div.container_order-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  max-height: 415px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body main section.section_order-status div.container_order-status::-webkit-scrollbar {
+  width: 4px;
+}
+
+body main section.section_order-status div.container_order-status::-webkit-scrollbar-track {
+  background: var(--tertiary-light);
+}
+
+body main section.section_order-status div.container_order-status::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-radius: 4px;
+}
+
+body main section.section_order-status div.container_order-status div.empty-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 129px;
+  border-radius: 5px;
+  background-color: var(--secondary-dark);
+}
+
+body main section.section_order-status div.container_order-status div.empty-status h1 {
+  text-align: center;
+  font-weight: 300;
+  color: var(--secondary-light);
+  font-size: 16px;
+}
+
+body main section.section_order-status div.container_order-status div.container_order-status-entry {
+  display: -ms-grid;
+  display: grid;
+  padding: 7px 20px;
+  background-color: var(--secondary-dark);
+  border-radius: 5px;
+}
+
+body main section.section_order-status div.container_order-status div.container_order-status-entry p {
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_order-status div.container_order-status div.container_order-status-entry p.orderNo {
+  color: var(--primary-light);
+}
+
+body main section.section_order-status div.container_order-status div.container_order-status-entry p span {
+  font-weight: 300;
+}
+
+body main section.section_order-status div.container_order-status div.container_order-status-entry div.container_orderNo-Date, body main section.section_order-status div.container_order-status div.container_order-status-entry div.container_quantity-amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main section.section_order-status div.container_order-status div.container_order-status-entry div.container_orderNo-Date p, body main section.section_order-status div.container_order-status div.container_order-status-entry div.container_quantity-amount p {
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_order-status div.container_order-status div.container_order-status-entry div.container_orderNo-Date p.orderNo, body main section.section_order-status div.container_order-status div.container_order-status-entry div.container_quantity-amount p.orderNo {
+  color: var(--primary-light);
+}
+
+body main section.section_order-status div.container_order-status div.container_order-status-entry div.container_orderNo-Date p span, body main section.section_order-status div.container_order-status div.container_order-status-entry div.container_quantity-amount p span {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  body main section.section_order-status div.container_order-status div.container_order-status-entry p {
+    font-size: 14px;
+  }
+  body main section.section_order-status div.container_order-status div.container_order-status-entry p span {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body main section.section_order-status {
+    margin: 130px auto;
+  }
+  body main section.section_order-status div.container_order-status div.container_order-status-entry p {
+    font-size: 12px;
+  }
+  body main section.section_order-status div.container_order-status div.container_order-status-entry p span {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=client_status.css.map */

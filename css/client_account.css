@@ -1,0 +1,376 @@
+body main {
+  margin: 100px auto;
+  max-width: 1350px;
+  width: 96%;
+}
+
+body main section.section_client-account {
+  margin: 150px auto 50px auto;
+  max-width: 700px;
+  width: 100%;
+}
+
+body main section.section_client-account h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+body main section.section_client-account hr {
+  margin: 10px auto;
+  border: none;
+  height: 1.5px;
+  width: 100%;
+  background: var(--tertiary-dark);
+}
+
+body main section.section_client-account div.container_client-account form div.profile_image {
+  margin: auto;
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 50%;
+}
+
+body main section.section_client-account div.container_client-account form div.profile_image div.camera-icon {
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  width: 40px;
+  background: var(--secondary-dark);
+  border: 1px solid var(--secondary-light);
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+body main section.section_client-account div.container_client-account form div.profile_image div.camera-icon:hover {
+  background: var(--table-head);
+}
+
+body main section.section_client-account div.container_client-account form div.profile_image input[type="file"] {
+  display: none;
+}
+
+body main section.section_client-account div.container_client-account form div.profile_image img {
+  display: block;
+  margin: auto;
+  max-width: 120px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+body main section.section_client-account div.container_client-account form label {
+  display: block;
+  margin-top: 15px;
+  width: 100%;
+}
+
+body main section.section_client-account div.container_client-account form label p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_client-account div.container_client-account form label p span {
+  color: var(--danger);
+}
+
+body main section.section_client-account div.container_client-account form label p.err_message {
+  padding: 0;
+  color: var(--danger) !important;
+  font-size: 12px;
+}
+
+body main section.section_client-account div.container_client-account form label input[type="text"] {
+  padding: 7px 20px;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_client-account div.container_client-account form div.container_client-account-fullname, body main section.section_client-account div.container_client-account form div.container_client-account-city-barangay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+body main section.section_client-account div.container_client-account form button#client-account-submit {
+  margin-top: 15px;
+  padding: 7px 0;
+  width: 100%;
+  background-color: var(--yellow);
+  text-shadow: 0 0 5px var(--tertiary-dark);
+}
+
+body main section.section_client-account div.container_client-account form button#client-account-submit:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_client-password {
+  margin: 50px auto;
+  max-width: 700px;
+  width: 100%;
+}
+
+body main section.section_client-password h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+body main section.section_client-password hr {
+  margin: 10px auto;
+  border: none;
+  height: 1.5px;
+  width: 100%;
+  background: var(--tertiary-dark);
+}
+
+body main section.section_client-password div.container_client-password form > label {
+  display: none;
+}
+
+body main section.section_client-password div.container_client-password form > label p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_client-password div.container_client-password form > label p span {
+  color: var(--danger);
+}
+
+body main section.section_client-password div.container_client-password form > label input[type="text"]#client-email-hidden {
+  padding: 7px 20px;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_client-password div.container_client-password form > label input[type="text"]#client-email-hidden::-ms-reveal, body main section.section_client-password div.container_client-password form > label input[type="text"]#client-email-hidden::-ms-clear {
+  display: none;
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label {
+  display: block;
+  margin-top: 15px;
+  width: 100%;
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label p span {
+  color: var(--danger);
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label p.err_message {
+  padding: 0;
+  color: var(--danger) !important;
+  font-size: 12px;
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) {
+  position: relative;
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) input[type="password"], body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) input[type="text"] {
+  padding: 7px 20px;
+  width: 100%;
+  background-color: var(--secondary-dark);
+  border: none;
+  border-radius: 5px;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) input[type="password"]::-ms-reveal, body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) input[type="password"]::-ms-clear, body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) input[type="text"]::-ms-reveal, body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) input[type="text"]::-ms-clear {
+  display: none;
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 12px;
+  color: var(--secondary-light);
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+  cursor: pointer;
+}
+
+body main section.section_client-password div.container_client-password form div.container_password label div:is(.container_client-password-current, .container_client-password-new, .container_client-password-confirm) i:hover {
+  color: var(--primary-light);
+}
+
+body main section.section_client-password div.container_client-password form div.container_password button#client-password-submit {
+  margin-top: 15px;
+  padding: 7px 0;
+  width: 100%;
+  background-color: var(--yellow);
+  text-shadow: 0 0 5px var(--tertiary-dark);
+}
+
+body main section.section_client-password div.container_client-password form div.container_password button#client-password-submit:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_modal-update-success {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(-50%, -50%);
+          transform: translateY(-50%, -50%);
+  background-color: var(--tertiary-dark);
+  z-index: 5;
+}
+
+body main section.section_modal-update-success div.container_modal-update-success {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 30px;
+  margin: auto;
+  max-width: 400px;
+  width: 95%;
+  text-align: center;
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--tertiary-light);
+  border-radius: 5px;
+}
+
+body main section.section_modal-update-success div.container_modal-update-success h1 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body main section.section_modal-update-success div.container_modal-update-success button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 7px 15px;
+  background-color: var(--yellow);
+  text-shadow: 0 0 5px var(--tertiary-dark);
+}
+
+body main section.section_modal-update-success div.container_modal-update-success button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_modal-update-success div.container_modal-update-success .animation-ctn {
+  margin: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+}
+
+body main section.section_modal-update-success div.container_modal-update-success .inlinesvg .svg svg {
+  display: inline;
+}
+
+body main section.section_modal-update-success div.container_modal-update-success .icon--added-success svg polyline {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-animation: checkmark 0.25s ease-in-out 0.7s backwards;
+          animation: checkmark 0.25s ease-in-out 0.7s backwards;
+  stroke-linecap: round;
+  stroke-dasharray: 100px,  100px;
+  stroke-linejoin: round;
+}
+
+body main section.section_modal-update-success div.container_modal-update-success .icon--added-success svg circle {
+  stroke-dasharray: 400px, 400px;
+  stroke-dashoffset: 960px;
+  -webkit-animation: checkmark-circle 0.6s ease-in-out backwards;
+          animation: checkmark-circle 0.6s ease-in-out backwards;
+}
+
+body main section.section_modal-update-success div.container_modal-update-success .icon--added-success svg circle.colored {
+  -webkit-animation: colored-circle 0.6s ease-in-out 0.7s backwards;
+          animation: colored-circle 0.6s ease-in-out 0.7s backwards;
+}
+
+@media only screen and (max-width: 320px) {
+  body main section.section_client-account {
+    margin-top: 120px;
+  }
+}
+
+@-webkit-keyframes checkmark {
+  0% {
+    stroke-dashoffset: 100px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes checkmark {
+  0% {
+    stroke-dashoffset: 100px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@-webkit-keyframes checkmark-circle {
+  0% {
+    stroke-dashoffset: 480px;
+  }
+  100% {
+    stroke-dashoffset: 960px;
+  }
+}
+
+@keyframes checkmark-circle {
+  0% {
+    stroke-dashoffset: 480px;
+  }
+  100% {
+    stroke-dashoffset: 960px;
+  }
+}
+
+@-webkit-keyframes colored-circle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes colored-circle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+/*# sourceMappingURL=client_account.css.map */

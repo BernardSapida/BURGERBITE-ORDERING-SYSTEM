@@ -1,0 +1,319 @@
+body {
+  position: relative;
+}
+
+body main {
+  margin: 100px auto;
+  max-width: 1350px;
+  width: 96%;
+}
+
+body main section.section_about-story {
+  margin: 150px auto 50px auto;
+}
+
+body main section.section_about-story div.container_story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_about-story div.container_story div.container_story-description {
+  margin: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+body main section.section_about-story div.container_story div.container_story-description h1 {
+  margin-bottom: 5px;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+body main section.section_about-story div.container_story div.container_story-description p {
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_about-story div.container_story div.container_story-description button {
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: var(--yellow);
+  text-shadow: 0 0 5px var(--tertiary-dark);
+}
+
+body main section.section_about-story div.container_story div.container_story-description button a {
+  text-decoration: none;
+}
+
+body main section.section_about-story div.container_story div.container_story-description button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_about-story div.container_story div.container_story-image {
+  margin: 10px;
+}
+
+body main section.section_about-story div.container_story div.container_story-image img {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+body main section.section_mvv {
+  margin: 100px auto;
+}
+
+body main section.section_mvv hr {
+  margin: auto;
+  border: none;
+  height: 1.5px;
+  width: 96%;
+  background-color: var(--tertiary-dark);
+}
+
+body main section.section_mvv > h1 {
+  margin: 34px 0;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--yellow);
+}
+
+body main section.section_mvv div.container_values, body main section.section_mvv div.container_mission, body main section.section_mvv div.container_vision {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_mvv div.container_values div.container_values-description, body main section.section_mvv div.container_values div.container_mission-description, body main section.section_mvv div.container_values div.container_vision-description, body main section.section_mvv div.container_mission div.container_values-description, body main section.section_mvv div.container_mission div.container_mission-description, body main section.section_mvv div.container_mission div.container_vision-description, body main section.section_mvv div.container_vision div.container_values-description, body main section.section_mvv div.container_vision div.container_mission-description, body main section.section_mvv div.container_vision div.container_vision-description {
+  margin: 5px 15px;
+  max-width: 600px;
+  width: 100%;
+}
+
+body main section.section_mvv div.container_values div.container_values-description h1, body main section.section_mvv div.container_values div.container_mission-description h1, body main section.section_mvv div.container_values div.container_vision-description h1, body main section.section_mvv div.container_mission div.container_values-description h1, body main section.section_mvv div.container_mission div.container_mission-description h1, body main section.section_mvv div.container_mission div.container_vision-description h1, body main section.section_mvv div.container_vision div.container_values-description h1, body main section.section_mvv div.container_vision div.container_mission-description h1, body main section.section_mvv div.container_vision div.container_vision-description h1 {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+body main section.section_mvv div.container_values div.container_values-description p, body main section.section_mvv div.container_values div.container_mission-description p, body main section.section_mvv div.container_values div.container_vision-description p, body main section.section_mvv div.container_mission div.container_values-description p, body main section.section_mvv div.container_mission div.container_mission-description p, body main section.section_mvv div.container_mission div.container_vision-description p, body main section.section_mvv div.container_vision div.container_values-description p, body main section.section_mvv div.container_vision div.container_mission-description p, body main section.section_mvv div.container_vision div.container_vision-description p {
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_mvv div.container_values div.container_values-image, body main section.section_mvv div.container_values div.container_mission-image, body main section.section_mvv div.container_values div.container_vision-image, body main section.section_mvv div.container_mission div.container_values-image, body main section.section_mvv div.container_mission div.container_mission-image, body main section.section_mvv div.container_mission div.container_vision-image, body main section.section_mvv div.container_vision div.container_values-image, body main section.section_mvv div.container_vision div.container_mission-image, body main section.section_mvv div.container_vision div.container_vision-image {
+  margin: 5px 15px;
+}
+
+body main section.section_mvv div.container_values div.container_values-image img, body main section.section_mvv div.container_values div.container_mission-image img, body main section.section_mvv div.container_values div.container_vision-image img, body main section.section_mvv div.container_mission div.container_values-image img, body main section.section_mvv div.container_mission div.container_mission-image img, body main section.section_mvv div.container_mission div.container_vision-image img, body main section.section_mvv div.container_vision div.container_values-image img, body main section.section_mvv div.container_vision div.container_mission-image img, body main section.section_mvv div.container_vision div.container_vision-image img {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+body main section.section_products-services {
+  margin: 100px auto;
+}
+
+body main section.section_products-services hr {
+  margin: auto;
+  border: none;
+  height: 1.5px;
+  width: 96%;
+  background-color: var(--tertiary-dark);
+}
+
+body main section.section_products-services > h1 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--yellow);
+}
+
+body main section.section_products-services div.container_products, body main section.section_products-services div.container_restaurant-delivery, body main section.section_products-services div.container_quality-service {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_products-services div.container_products div.container_products-description, body main section.section_products-services div.container_products div.container_restaurant-delivery-description, body main section.section_products-services div.container_products div.container_quality-service-description, body main section.section_products-services div.container_restaurant-delivery div.container_products-description, body main section.section_products-services div.container_restaurant-delivery div.container_restaurant-delivery-description, body main section.section_products-services div.container_restaurant-delivery div.container_quality-service-description, body main section.section_products-services div.container_quality-service div.container_products-description, body main section.section_products-services div.container_quality-service div.container_restaurant-delivery-description, body main section.section_products-services div.container_quality-service div.container_quality-service-description {
+  margin: 10px 15px;
+  max-width: 600px;
+  width: 100%;
+}
+
+body main section.section_products-services div.container_products div.container_products-description h1, body main section.section_products-services div.container_products div.container_restaurant-delivery-description h1, body main section.section_products-services div.container_products div.container_quality-service-description h1, body main section.section_products-services div.container_restaurant-delivery div.container_products-description h1, body main section.section_products-services div.container_restaurant-delivery div.container_restaurant-delivery-description h1, body main section.section_products-services div.container_restaurant-delivery div.container_quality-service-description h1, body main section.section_products-services div.container_quality-service div.container_products-description h1, body main section.section_products-services div.container_quality-service div.container_restaurant-delivery-description h1, body main section.section_products-services div.container_quality-service div.container_quality-service-description h1 {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+body main section.section_products-services div.container_products div.container_products-description p, body main section.section_products-services div.container_products div.container_restaurant-delivery-description p, body main section.section_products-services div.container_products div.container_quality-service-description p, body main section.section_products-services div.container_restaurant-delivery div.container_products-description p, body main section.section_products-services div.container_restaurant-delivery div.container_restaurant-delivery-description p, body main section.section_products-services div.container_restaurant-delivery div.container_quality-service-description p, body main section.section_products-services div.container_quality-service div.container_products-description p, body main section.section_products-services div.container_quality-service div.container_restaurant-delivery-description p, body main section.section_products-services div.container_quality-service div.container_quality-service-description p {
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_products-services div.container_products div.container_products-image, body main section.section_products-services div.container_products div.container_restaurant-delivery-image, body main section.section_products-services div.container_products div.container_quality-service-image, body main section.section_products-services div.container_restaurant-delivery div.container_products-image, body main section.section_products-services div.container_restaurant-delivery div.container_restaurant-delivery-image, body main section.section_products-services div.container_restaurant-delivery div.container_quality-service-image, body main section.section_products-services div.container_quality-service div.container_products-image, body main section.section_products-services div.container_quality-service div.container_restaurant-delivery-image, body main section.section_products-services div.container_quality-service div.container_quality-service-image {
+  margin: 10px 15px;
+}
+
+body main section.section_products-services div.container_products div.container_products-image img, body main section.section_products-services div.container_products div.container_restaurant-delivery-image img, body main section.section_products-services div.container_products div.container_quality-service-image img, body main section.section_products-services div.container_restaurant-delivery div.container_products-image img, body main section.section_products-services div.container_restaurant-delivery div.container_restaurant-delivery-image img, body main section.section_products-services div.container_restaurant-delivery div.container_quality-service-image img, body main section.section_products-services div.container_quality-service div.container_products-image img, body main section.section_products-services div.container_quality-service div.container_restaurant-delivery-image img, body main section.section_products-services div.container_quality-service div.container_quality-service-image img {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+body main section.section_members-participation {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--tertiary-dark);
+}
+
+body main section.section_members-participation div.container_members-participation {
+  margin: auto;
+  padding: 30px;
+  max-width: 450px;
+  width: 95%;
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--tertiary-light);
+  border-radius: 5px;
+}
+
+body main section.section_members-participation div.container_members-participation-header h1 {
+  font-size: 24px;
+  line-height: 1;
+  color: var(--yellow);
+}
+
+body main section.section_members-participation div.container_members-participation-header hr {
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  height: 1px;
+  background-color: var(--secondary-light);
+}
+
+body main section.section_members-participation div.container_members-participation-body div.members-1, body main section.section_members-participation div.container_members-participation-body div.members-2 {
+  margin: 5px 0;
+}
+
+body main section.section_members-participation div.container_members-participation-body div.members-1 h2.title, body main section.section_members-participation div.container_members-participation-body div.members-2 h2.title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body main section.section_members-participation div.container_members-participation-body div.members-1 p.names, body main section.section_members-participation div.container_members-participation-body div.members-2 p.names {
+  padding: 0 10px;
+  font-size: 14px;
+  color: var(--secondary-light);
+  font-weight: 200;
+}
+
+body main section.section_members-participation div.container_members-participation-footer hr {
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  height: 1px;
+  background-color: var(--secondary-light);
+}
+
+body main section.section_members-participation div.container_members-participation-footer button#btn-participation {
+  padding: 5px 15px;
+  display: block;
+  margin-left: auto;
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--secondary-light);
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+body main section.section_members-participation div.container_members-participation-footer button#btn-participation:hover {
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+@media only screen and (max-width: 600px) {
+  body main section.section_about-story {
+    margin: 100px auto 50px auto;
+  }
+  body main section.section_about-story h1 {
+    font-size: 24px !important;
+  }
+  body main section.section_about-story button {
+    font-size: 14px !important;
+  }
+  body main section.section_mvv {
+    margin: 50px auto !important;
+  }
+  body main section.section_mvv > h1 {
+    font-size: 24px !important;
+  }
+  body main section.section_products-services {
+    margin: 50px auto !important;
+  }
+  body main section.section_products-services > h1 {
+    font-size: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body main section.section_about-story {
+    margin: 100px auto 50px auto;
+  }
+  body main section.section_about-story h1 {
+    font-size: 18px !important;
+  }
+  body main section.section_about-story p {
+    font-size: 14px !important;
+  }
+  body main section.section_about-story button {
+    margin-top: 8px !important;
+    font-size: 10px !important;
+  }
+  body main section.section_mvv h1 {
+    font-size: 18px !important;
+  }
+  body main section.section_mvv p {
+    font-size: 14px !important;
+  }
+  body main section.section_products-services h1 {
+    font-size: 18px !important;
+  }
+  body main section.section_products-services p {
+    font-size: 14px !important;
+  }
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,132 @@
+body main {
+  margin: 100px auto;
+  max-width: 1350px;
+  width: 96%;
+}
+
+body main section.section_tabular-accounts {
+  margin: 50px auto;
+  max-width: 1340px;
+  width: 100%;
+}
+
+body main section.section_tabular-accounts div.container_tabular-header {
+  margin: 20px auto;
+  text-align: center;
+}
+
+body main section.section_tabular-accounts div.container_tabular-header h1 {
+  font-weight: 400;
+}
+
+body main section.section_tabular-accounts div.container_tabular-header p {
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts {
+  position: relative;
+  height: 414px;
+  width: 100%;
+  background: var(--secondary-dark);
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts::-webkit-scrollbar-track {
+  background: var(--tertiary-light);
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-radius: 10px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table caption {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: var(--table-head);
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th, body main section.section_tabular-accounts div.container_tabular-accounts table tbody tr td {
+  padding: 8px 15px;
+  text-align: left;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr, body main section.section_tabular-accounts div.container_tabular-accounts table tbody tr:not(:last-child) {
+  border-bottom: 1px solid var(--tertiary-light);
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th {
+  font-weight: 400;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(1) {
+  min-width: 50px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(2) {
+  min-width: 80px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(3) {
+  min-width: 115px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(4) {
+  min-width: 115px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(5) {
+  min-width: 270px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(6) {
+  min-width: 150px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(7) {
+  min-width: 300px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(8) {
+  min-width: 100px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table thead tr th:nth-child(9) {
+  min-width: 120px;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table tbody tr td {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: var(--secondary-light);
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+body main section.section_tabular-accounts div.container_tabular-accounts table tbody tr td img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=admin_clients-info.css.map */

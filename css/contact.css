@@ -1,0 +1,277 @@
+body main {
+  margin: 100px auto;
+  max-width: 1350px;
+  width: 96%;
+}
+
+body main section.section_contact-page {
+  margin: 150px auto 50px auto;
+}
+
+body main section.section_contact-page div.container_map h1 {
+  margin: 20px 0;
+  text-align: center;
+  color: var(--yellow);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+body main section.section_contact-page div.container_map iframe {
+  display: block;
+  margin: auto;
+  max-width: 1100px;
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 5px;
+}
+
+body main section.section_contact-form {
+  margin: 50px auto;
+  max-width: 1100px;
+  width: 100%;
+}
+
+body main section.section_contact-form div.container_contact {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+body main section.section_contact-form div.container_contact div.container_form {
+  max-width: 900px;
+  width: 100%;
+}
+
+body main section.section_contact-form div.container_contact div.container_form form h1 {
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+body main section.section_contact-form div.container_contact div.container_form form div.container_name-and-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+body main section.section_contact-form div.container_contact div.container_form form label {
+  display: block;
+  margin-bottom: 20px;
+  max-width: 900px;
+  width: 100%;
+}
+
+body main section.section_contact-form div.container_contact div.container_form form label p {
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_contact-form div.container_contact div.container_form form label p.err_message {
+  padding: 0;
+  color: var(--danger) !important;
+  font-size: 12px;
+}
+
+body main section.section_contact-form div.container_contact div.container_form form label input[type="text"], body main section.section_contact-form div.container_contact div.container_form form label textarea {
+  padding: 10px 20px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border: 2px solid var(--secondary-dark);
+  border-radius: 5px;
+  font-weight: 500;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_contact-form div.container_contact div.container_form form label textarea {
+  resize: vertical;
+}
+
+body main section.section_contact-form div.container_contact div.container_form form button {
+  display: block;
+  margin-left: auto;
+  padding: 8px 20px;
+  background-color: var(--yellow);
+  text-shadow: 0 0 5px var(--tertiary-dark);
+}
+
+body main section.section_contact-form div.container_contact div.container_form form button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_contact-form div.container_contact div.container_form form button span {
+  margin-right: 8px;
+}
+
+body main section.section_modal-message-success {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-transform: translateY(-50%, -50%);
+          transform: translateY(-50%, -50%);
+  background-color: var(--tertiary-dark);
+  z-index: 5;
+}
+
+body main section.section_modal-message-success div.container_modal-message-success {
+  padding: 30px;
+  margin: auto;
+  max-width: 450px;
+  width: 95%;
+  text-align: center;
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--tertiary-light);
+  border-radius: 5px;
+}
+
+body main section.section_modal-message-success div.container_modal-message-success h1 {
+  font-weight: 400;
+}
+
+body main section.section_modal-message-success div.container_modal-message-success p {
+  color: var(--secondary-light);
+  font-weight: 200;
+  font-size: 12px;
+}
+
+body main section.section_modal-message-success div.container_modal-message-success button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 7px 15px;
+  background-color: var(--yellow);
+  text-shadow: 0 0 5px var(--tertiary-dark);
+}
+
+body main section.section_modal-message-success div.container_modal-message-success button:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_modal-message-success div.container_modal-message-success .animation-ctn {
+  margin: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+}
+
+body main section.section_modal-message-success div.container_modal-message-success .inlinesvg .svg svg {
+  display: inline;
+}
+
+body main section.section_modal-message-success div.container_modal-message-success .icon--message-success svg polyline {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-animation: checkmark 0.25s ease-in-out 0.7s backwards;
+          animation: checkmark 0.25s ease-in-out 0.7s backwards;
+  stroke-linecap: round;
+}
+
+body main section.section_modal-message-success div.container_modal-message-success .icon--message-success svg circle {
+  -webkit-animation: checkmark-circle 0.6s ease-in-out backwards;
+          animation: checkmark-circle 0.6s ease-in-out backwards;
+}
+
+body main section.section_modal-message-success div.container_modal-message-success .icon--message-success svg circle#colored {
+  -webkit-animation: colored-circle 0.6s ease-in-out 0.7s backwards;
+          animation: colored-circle 0.6s ease-in-out 0.7s backwards;
+}
+
+@media only screen and (max-width: 600px) {
+  body main section.section_contact-page {
+    margin: 50px auto;
+  }
+  body main section.section_contact-page div.container_map h1 {
+    font-size: 34px;
+    font-weight: 800;
+  }
+  body main section.section_contact-page div.container_map iframe {
+    max-width: 1100px;
+    width: 100%;
+    height: 350px;
+  }
+  body main section.section_contact-form {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body main section.section_contact-page {
+    margin: 50px auto;
+  }
+  body main section.section_contact-page div.container_map h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  body main section.section_contact-page div.container_map iframe {
+    max-width: 1100px;
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@-webkit-keyframes checkmark {
+  0% {
+    stroke-dashoffset: 100px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes checkmark {
+  0% {
+    stroke-dashoffset: 100px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@-webkit-keyframes checkmark-circle {
+  0% {
+    stroke-dashoffset: 480px;
+  }
+  100% {
+    stroke-dashoffset: 960px;
+  }
+}
+
+@keyframes checkmark-circle {
+  0% {
+    stroke-dashoffset: 480px;
+  }
+  100% {
+    stroke-dashoffset: 960px;
+  }
+}
+
+@-webkit-keyframes colored-circle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes colored-circle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

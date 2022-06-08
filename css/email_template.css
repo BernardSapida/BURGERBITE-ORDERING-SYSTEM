@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --primary-dark: hsl(0, 0%, 2%);
+  --secondary-dark: hsl(0, 0%, 4%);
+  --tertiary-dark: hsla(0, 0%, 3%, .9);
+  --primary-light: hsl(0, 0%, 100%);
+  --secondary-light: hsl(0, 0%, 100%, .5);
+  --tertiary-light: hsl(0, 0%, 100%, .1);
+  --gray: hsl(0, 0%, 8%);
+  --table-head: hsl(0, 0%, 10%);
+  --blue: hsl(230, 100%, 67%);
+  --green: hsl(138, 51%, 55%);
+  --yellow: hsl(47, 100%, 44%);
+  --yellow-lighten: hsl(47, 100%, 54%);
+  --danger-light: hsl(349, 80%, 54%);
+  --danger: hsl(349, 100%, 54%);
+  --twitter-light: hsl(203, 87%, 65%);
+  --twitter: hsl(203, 87%, 55%);
+  --facebook-light: hsl(221, 44%, 51%);
+  --facebook: hsl(221, 44%, 41%);
+  --instagram-light: hsl(346, 96%, 72%);
+  --instagram: hsl(346, 96%, 62%);
+  --email-light: hsl(353, 92%, 49%);
+  --email: hsl(353, 92%, 39%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inter', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: black;
+}
+
+body main section.section_email-template {
+  padding: 15px;
+  position: relative;
+  background-color: var(--primary-dark);
+}
+
+body main section.section_email-template div.container_email_header {
+  margin-bottom: 15px;
+}
+
+body main section.section_email-template div.container_email_header p.email_header-logo img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 80px;
+}
+
+body main section.section_email-template div.container_email-body {
+  margin: auto;
+  background-color: #fff7e8;
+  height: 250px;
+  width: 95%;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 0 50px;
+}
+
+body main section.section_email-template div.container_email-body div.container_email-body-content > p, body main section.section_email-template div.container_email-body div.container_email-body-content > h1 {
+  text-align: center;
+  line-height: 1.7;
+}
+
+body main section.section_email-template div.container_email-body div.container_email-body-content > p:nth-child(2) {
+  font-weight: 700;
+}
+
+body main section.section_email-template div.container_email-body div.container_email-body-content > p:nth-child(3) {
+  color: var(--secondary-dark);
+}
+
+body main section.section_email-template div.container_email-body div.container_email-body-content > h1 {
+  margin-bottom: 10px;
+  font-size: 34px;
+}
+
+body main section.section_email-template div.container_email-body div.container_email-body-content > h1 > span {
+  color: var(--danger);
+}
+
+body main section.section_email-template div.container_email-footer {
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  color: var(--primary-light);
+}
+
+body main section.section_email-template div.container_email-footer > ul {
+  text-align: center;
+}
+
+body main section.section_email-template div.container_email-footer > ul > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+body main section.section_email-template div.container_email-footer > ul > li > a {
+  padding: 0 12px;
+  text-decoration: none;
+  color: var(--yellow);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+body main section.section_email-template div.container_email-footer > p {
+  text-align: center;
+}
+
+body main section.section_email-template div.container_email-footer > p.email-reminder, body main section.section_email-template div.container_email-footer > p.email-copyright {
+  margin: 10px;
+  font-size: 12px;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+/*# sourceMappingURL=email_template.css.map */

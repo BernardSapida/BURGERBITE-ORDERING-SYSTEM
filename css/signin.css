@@ -1,0 +1,202 @@
+body main {
+  margin: 100px auto;
+  max-width: 1350px;
+  width: 96%;
+}
+
+body main section.section_signin {
+  margin: 150px 0 100px 0;
+}
+
+body main section.section_signin div.container_signin {
+  padding: 50px;
+  margin: auto;
+  background-color: var(--secondary-dark);
+  max-width: 600px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+body main section.section_signin div.container_signin div.container_title {
+  margin-bottom: 15px;
+}
+
+body main section.section_signin div.container_signin div.container_title h1, body main section.section_signin div.container_signin div.container_title p {
+  padding: 5px 0;
+  text-align: center;
+}
+
+body main section.section_signin div.container_signin div.container_title h1 {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+body main section.section_signin div.container_signin div.container_title p {
+  font-size: 14px;
+  color: var(--secondary-light);
+  font-weight: 300;
+}
+
+body main section.section_signin div.container_signin div.container_title p a {
+  color: var(--yellow);
+  text-decoration: none;
+  font-weight: 300;
+}
+
+body main section.section_signin div.container_signin div.container_title p a:hover {
+  color: var(--yellow-lighten);
+}
+
+body main section.section_signin div.container_signin div.container_form form label {
+  display: block;
+}
+
+body main section.section_signin div.container_signin div.container_form form label > p {
+  margin-top: 10px;
+  padding: 5px 0;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+body main section.section_signin div.container_signin div.container_form form label input[type="text"], body main section.section_signin div.container_signin div.container_form form label input[type="password"] {
+  padding: 7px 15px;
+  width: 100%;
+  border: none;
+  border: 2px solid var(--tertiary-light);
+  border-radius: 5px;
+  background: transparent;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_signin div.container_signin div.container_form form label input[type="text"]::-ms-reveal, body main section.section_signin div.container_signin div.container_form form label input[type="text"]::-ms-clear, body main section.section_signin div.container_signin div.container_form form label input[type="password"]::-ms-reveal, body main section.section_signin div.container_signin div.container_form form label input[type="password"]::-ms-clear {
+  display: none;
+}
+
+body main section.section_signin div.container_signin div.container_form form label .signin_password {
+  position: relative;
+  margin: 0;
+}
+
+body main section.section_signin div.container_signin div.container_form form label .signin_password span.checkbox_password label input[type="checkbox"] {
+  display: none;
+}
+
+body main section.section_signin div.container_signin div.container_form form label .signin_password span.checkbox_password label input[type="checkbox"]:checked + .icon_hide-password {
+  color: var(--primary-light);
+}
+
+body main section.section_signin div.container_signin div.container_form form label .signin_password span.checkbox_password label .icon_hide-password {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--secondary-light);
+  font-size: 14px;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+body main section.section_signin div.container_signin div.container_form form label .signin_password span.checkbox_password label .icon_hide-password:hover {
+  color: var(--primary-light);
+}
+
+body main section.section_signin div.container_signin div.container_form form label > p.err_message {
+  margin-top: 0;
+  color: var(--danger);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+body main section.section_signin div.container_signin div.container_form form button#signin_btn {
+  margin-top: 20px;
+  padding: 7px;
+  width: 100%;
+  background-color: var(--yellow);
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+  text-shadow: 0 0 5px var(--tertiary-dark);
+}
+
+body main section.section_signin div.container_signin div.container_form form button#signin_btn:hover {
+  background-color: var(--yellow-lighten);
+}
+
+body main section.section_signin div.container_signin div.container_form form div.signin_keep-logged {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main section.section_signin div.container_signin div.container_form form div.signin_keep-logged label {
+  display: block;
+  margin: 0;
+}
+
+body main section.section_signin div.container_signin div.container_form form div.signin_keep-logged label p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--secondary-light);
+}
+
+body main section.section_signin div.container_signin div.container_form form div.signin_keep-logged p {
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+body main section.section_signin div.container_signin div.container_form form div.signin_keep-logged p a {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--secondary-light);
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+body main section.section_signin div.container_signin div.container_form form div.signin_keep-logged p a:hover {
+  color: var(--yellow);
+}
+
+@media only screen and (max-width: 600px) {
+  body main section.section_signin div.container_signin {
+    padding: 30px;
+  }
+  body main section.section_signin div.container_signin div.container_title h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body main section.section_signin {
+    margin: 150px 0 0 0;
+  }
+  body main section.section_signin div.container_signin {
+    padding: 20px;
+  }
+  body main section.section_signin div.container_signin div.container_title h1 {
+    font-size: 18px;
+  }
+  body main section.section_signin div.container_signin div.container_title p {
+    font-size: 10px;
+  }
+  body main section.section_signin div.container_signin .container_form form label > p.err_message {
+    font-size: 10px !important;
+  }
+  body main section.section_signin div.container_signin .container_form form div.signin_keep-logged label p {
+    font-size: 10px !important;
+  }
+  body main section.section_signin div.container_signin .container_form form div.signin_keep-logged p a {
+    font-size: 10px !important;
+  }
+}
+/*# sourceMappingURL=signin.css.map */
