@@ -53,7 +53,7 @@
                 }
             }
             
-            $connect = mysqli_connect("localhost", "grgpiwqy_burgerhub", "burgerhub30241715", "grgpiwqy_burgerhub") or die("ERROR: Could not connect. " .  $connect->connect_error);;
+            $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);;
             $sql_information = "UPDATE client_information 
             SET image = '$image', `firstname` = '$firstname', `lastname` = '$lastname', `email` = '$email', `mobile` = '$mobile', `street address` = '$street_address', `city` = '$city', `barangay` = '$barangay' WHERE clientid = '$clientID'";
             mysqli_query($connect, $sql_information);
@@ -109,7 +109,7 @@
                         
                     if($newPassword == $confirmPassword && empty($errNewPassword)) {
                         $encryptPassword = password_hash($newPassword, PASSWORD_DEFAULT);
-                        $connect = mysqli_connect("localhost", "grgpiwqy_burgerhub", "burgerhub30241715", "grgpiwqy_burgerhub") or die("ERROR: Could not connect. " .  $connect->connect_error);
+                        $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);
                         $sql_accounts = "UPDATE client_accounts 
                         SET password = '$encryptPassword' WHERE clientid = '$clientID'";
                         mysqli_query($connect, $sql_accounts);

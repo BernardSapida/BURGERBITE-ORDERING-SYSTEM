@@ -43,7 +43,7 @@
               	$signup_success = true;
                 $encryptPassword = password_hash($password, PASSWORD_DEFAULT);
 
-                $connect = mysqli_connect("localhost", "grgpiwqy_burgerhub", "burgerhub30241715", "grgpiwqy_burgerhub") or die("ERROR: Could not connect. " .  $connect->connect_error);
+                $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);
                 $sqlAccounts = "INSERT INTO client_accounts (`clientid`, `image`, `fullname`, `email`, `password`, `type`)
                 VALUES ('$uid', '$image', '$firstname $lastname', '$email', '$encryptPassword', '$type')";
                 mysqli_query($connect, $sqlAccounts);
@@ -68,28 +68,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
+    <meta name="author" content="Mark Jigger Masacupan">
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
   	<meta property="og:title" content="Burger Shot Restaurant | Sign Up">
-    <meta property="og:url" content="https://burgerhub.x10.mx/signup.php">
+    <meta property="og:url" content="https://Burgershot.x10.mx/signup.php">
     <meta property="og:image" content="images/website-image.jpg">
-    <link rel="icon" type="image/any-icon" href="images/burgerhub.ico">
+    <link rel="icon" type="image/any-icon" href="images/Burgershot.ico">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>BurgerHub</title>
+    <title>Burger Shot</title>
 </head>
 <body>
     <?php include_once 'header.php' ?>  
 
-    <!-- BurgerHub Sign Up Page -->
+    <!-- Burger Shot Sign Up Page -->
     <main>
         <section class="section_signup">
             <div class="container_signup">
                 <div class="container_title">
-                    <h1>Sign Up to BurgerHub</h1>
-                    <p>Create your BurgerHub account</p>
+                    <h1>Sign Up to Burger Shot</h1>
+                    <p>Create your Burger Shot account</p>
                 </div>
                 <div class="container_form">
                     <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">

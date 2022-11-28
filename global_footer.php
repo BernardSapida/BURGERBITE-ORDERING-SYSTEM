@@ -1,5 +1,5 @@
 <!-- Burger Shot Footer -->
-<footer class="footer_burgerhub">
+<footer class="footer_burgershot">
     <section class="section_footer-description">
         <div class="footer_logo">
             <img src="images/logo/burger-logo.png" alt="">

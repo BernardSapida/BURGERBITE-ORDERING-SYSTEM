@@ -27,7 +27,7 @@
     </nav>
 </header>
 
-<!-- BurgerHub Loader -->
+<!-- Burger Shot Loader -->
 <div class="loader_burgershot">
     <div class="container">
         <div></div><div></div>

@@ -4,7 +4,7 @@
     if(empty($_SESSION["type"]) || $_SESSION["type"] == "admin") header("Location: index.php");
     if(empty($_GET["status"])) header("Location: client_status.php?status=Pending");
     $clientid = $_SESSION['clientid'];
-    $connect = mysqli_connect("localhost", "grgpiwqy_burgerhub", "burgerhub30241715", "grgpiwqy_burgerhub");
+    $connect = mysqli_connect("localhost", "root", "", "burgershot");
     $sql_accounts_pending = mysqli_query($connect,"SELECT * FROM client_orders where status = 'Pending' and clientid = '". $_SESSION['clientid']. "'");
     $sql_accounts_processing = mysqli_query($connect,"SELECT * FROM client_orders where status = 'Processing' and clientid = '". $_SESSION['clientid']. "'");
     $sql_accounts_delivering = mysqli_query($connect,"SELECT * FROM client_orders where status = 'Delivering' and clientid = '". $_SESSION['clientid']. "'");
@@ -17,24 +17,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
+    <meta name="author" content="Mark Jigger Masacupan">
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
   	<meta property="og:title" content="Burger Shot Restaurant | Client">
-    <meta property="og:url" content="https://burgerhub.x10.mx/client_status.php">
+    <meta property="og:url" content="https://Burgershot.x10.mx/client_status.php">
     <meta property="og:image" content="images/website-image.jpg">
-    <link rel="icon" type="image/any-icon" href="images/burgerhub.ico">
+    <link rel="icon" type="image/any-icon" href="images/Burgershot.ico">
     <link rel="stylesheet" href="css/client_header.css">
     <link rel="stylesheet" href="css/client_status.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <title>BurgerHub</title>
+    <title>Burger Shot</title>
 </head>
 <body>
     <?php include_once 'header.php' ?>
 
-    <!-- BurgerHub Order Status Page -->
+    <!-- Burger Shot Order Status Page -->
     <main>
-        <!-- BurgerHub Order Status -->
+        <!-- Burger Shot Order Status -->
         <section class="section_order-status">
             <div class="container_heading-status">
                 <p class="favicon"><i class="fa-solid fa-burger"></i></p>
@@ -65,7 +65,7 @@
                                             <p class='orderNo'>Order No. ".$row["orderNo"]."</p>
                                             <p class='date'>".explode(" ", $row["date"])[0]."</p>
                                         </div>
-                                        <p class='transaction-number'>Transaction number: <span>".$row["transactionNo"]."</span></p>
+                                        <p class='transaction-number'>Transaction number: <span>".$row["trackingNo"]."</span></p>
                                         <p class='status'>Status: <span>".$row["status"]."</span></p>
                                         <div class='container_quantity-amount'>
                                             <p class='quantity'>Quantity: <span>".$row["quantity"]."</span></p>

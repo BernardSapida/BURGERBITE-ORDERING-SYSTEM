@@ -23,7 +23,7 @@
                 if($newPassword == $confirmPassword && empty($errNewPassword)) {
                     $encryptPassword = password_hash($newPassword, PASSWORD_DEFAULT);
 
-                    $connect = mysqli_connect("localhost", "grgpiwqy_burgerhub", "burgerhub30241715", "grgpiwqy_burgerhub") or die("ERROR: Could not connect. " .  $connect->connect_error);
+                    $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);
                     $sql_accounts = "UPDATE client_accounts SET password = '$encryptPassword' WHERE email = '" . $_SESSION['token_email'] . "'";
                     $result = mysqli_query($connect, $sql_accounts);
                     
@@ -57,21 +57,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
+    <meta name="author" content="Mark Jigger Masacupan">
   	<meta property="og:title" content="Burger Shot Restaurant | Reset Password" />
-    <meta property="og:url" content="https://burgerhub.x10.mx/reset_password.php"/>
+    <meta property="og:url" content="https://Burgershot.x10.mx/reset_password.php"/>
     <meta property="og:image" content="images/website-image.jpg"/>
-    <link rel="icon" type="image/any-icon" href="images/burgerhub.ico">
+    <link rel="icon" type="image/any-icon" href="images/Burgershot.ico">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/reset_password.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <title>BurgerHub</title>
+    <title>Burger Shot</title>
 </head>
 <body>
     <?php include_once 'header.php' ?>
 
-    <!-- BurgerHub Reset Password Page -->
+    <!-- Burger Shot Reset Password Page -->
     <main>
         <section class="section_reset-password">
             <div class="container_reset-password">

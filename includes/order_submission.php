@@ -3,7 +3,7 @@
 
     if(empty($_SESSION["type"]) || $_SESSION["type"] == "admin") header("Location: index.php");
     
-    //error_reporting(E_ERROR | E_PARSE);
+    error_reporting(E_ERROR | E_PARSE);
     
     $errFirstname = "";
     $errLastname = "";
@@ -55,22 +55,22 @@
     if(isset($_POST["submit"])) {
         if(!empty($firstname) && !empty($lastname) && !empty($street_address) && !empty($city) && !empty($barangay) && !empty($quantity)) {
             $order_success = true;
-            $transactionNo = explode(".", uniqid("",true))[0];
+            $trackingNo = explode(".", uniqid("",true))[0];
             $orderNo = explode(".", uniqid("",true))[1];
             $status = "Pending";
 
-            $connect = mysqli_connect("localhost", "grgpiwqy_burgerhub", "burgerhub30241715", "grgpiwqy_burgerhub") or die("ERROR: Could not connect. " .  $connect->connect_error);
+            $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);
             $sql = "INSERT INTO `client_orders`
-            (`clientid`, `firstname`, `lastname`, `image`, `street address`, `city`, `barangay`, `transactionNo`, `orderNo`, 
-            `featured-product-1`, `featured-product-2`, `featured-product-3`, 
-            `Spicy Lamb Burger`, `Surf n Turf Burger`, `Peppercorn Burger`, `Vegan Burger`, 
-            `Blackjack Burger`, `American Classic Burger`, `Supreme Pizza`, `Bacon Chilli Pizza`, 
-            `BBQ Chicken Pizza`, `Creole Shrimp Pizza`, `Cheese Pizza`, `Hawaiian Pizza`, 
-            `Barbeque Fries`, `Cheddar Cheese Fries`, `Chili Barbeque Fries`, `Salted Fries`, 
-            `Sour Cream Fries`, `Wasabi Fries`, `Avocado Shake`, `Berry Shake`, `Lemonade Shake`, 
-            `Mango Shake`, `Pineapple Shake`, `Strawberry Shake`, `quantity`, `total`, `status`)
+            (`clientid`, `firstname`, `lastname`, `image`, `street address`, `city`, `barangay`, `trackingNo`, `orderNo`, 
+            `item1`, `item2`, `item3`, 
+            `item4`, `item5`, `item6`, `item7`, 
+            `item8`, `item9`, `item10`, `item11`, 
+            `item12`, `item13`, `item14`, `item15`, 
+            `item16`, `item17`, `item18`, `item19`, 
+            `item20`, `item21`, `item22`, `item23`, `item24`, 
+            `item25`, `item26`, `item27`, `quantity`, `total`, `status`)
             VALUES
-            ('$clientid','$firstname','$lastname','$image','$street_address','$city', '$barangay', '$transactionNo', '$orderNo',
+            ('$clientid','$firstname','$lastname','$image','$street_address','$city', '$barangay', '$trackingNo', '$orderNo',
             '$fp1', '$fp2', '$fp3',
             '$burger1', '$burger2', '$burger3', '$burger4', '$burger5', '$burger6',
             '$pizza1','$pizza2','$pizza3','$pizza4','$pizza5','$pizza6',
