@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    error_reporting(E_ERROR | E_PARSE);
+    // error_reporting(E_ERROR | E_PARSE);
 
     if(empty($_SESSION["type"]) || $_SESSION["type"] == "client") header("Location: index.php");
 
@@ -33,9 +33,9 @@
     $accumulated_complete_orders = $calculate_complete_orders > 100 ? 100 : $calculate_complete_orders;
 
     if(isset($_GET["tn"]) && isset($_GET["ci"]) && isset($_GET["st"])) {
-        $sql_client_order_details = mysqli_query($connect,"SELECT * FROM client_orders WHERE transactionNo = '". $_GET["tn"] ."' and clientid= '". $_GET["ci"] ."'");
+        $sql_client_order_details = mysqli_query($connect,"SELECT * FROM client_orders WHERE trackingNo = '". $_GET["tn"] ."' and clientid= '". $_GET["ci"] ."'");
         $updated_status = $_GET["st"];
-        $sql_update_status = "UPDATE client_orders SET `status` = '$updated_status' WHERE transactionNo = '". $_GET["tn"] ."' and clientid= '". $_GET["ci"] ."'";
+        $sql_update_status = "UPDATE client_orders SET `status` = '$updated_status' WHERE trackingNo = '". $_GET["tn"] ."' and clientid= '". $_GET["ci"] ."'";
         mysqli_query($connect, $sql_update_status);
         header("location: admin_dashboard.php?tn=" . $_GET["tn"] . "&ci=" . $_GET["ci"] . "&ts=" . $_GET["ci"] . "");
     }

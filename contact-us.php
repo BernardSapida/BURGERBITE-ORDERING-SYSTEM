@@ -34,45 +34,51 @@
 
         if(!empty($name) && !empty($email) && !empty($subject) && !empty($message)) {
             $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);;
-            $sql = "INSERT INTO client_messages (image, fullname, email, subject, message) VALUES ('default.jpg', '$name', '$email', '$subject', '$message')";
-            mysqli_query($connect, $sql);
+            
 
             if(strlen($name) > 6 && filter_var($email, FILTER_VALIDATE_EMAIL) && strlen($subject) > 2 && strlen($message) > 10) {
-              $mail = new PHPMailer(true);
-                
-              try {
-                $mail->SMTPDebug = SMTP::DEBUG_SERVER;                                    	//Display output
-                $mail->SMTPDebug = 3;                                                       //Display output
-                $mail->isSMTP(); 
-                $mail->Host       = 'smtp.office365.com';                                   //Set the SMTP server to send through
-                $mail->SMTPAuth   = true;                                                   //Enable SMTP authentication
-                $mail->Password   = '@Burgershot123';                                       //SMTP password
-                $mail->SMTPSecure = "STARTTLS";                                             //Enable implicit TLS encryption
-                $mail->Port       = 587;                                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-                // Recipients
-                $mail->setFrom('burgershot.service@outlook.com', 'Burger Shot Service');
-                $mail->addAddress($email, $name);                                           //Add a recipient & Name is optional
-                $mail->addReplyTo('burgershot.service@outlook.com', 'Reply');
-
-                // Content
-                $mail->isHTML(true);                                                        //Set email format to HTML
-                $mail->Subject = 'Message from Burger Shot';
-                $mail->Body    = 'We received your message';
-                $mail->AltBody = 'Hello, ' . $name . '! We received your message from Contact Us. Thank you for reaching us out and we will try out best to respond soonest!';
-
-                $mail->send();
-                echo 'Message has been sent';
-
-                $message_delivered = true;
+                $sql = "INSERT INTO client_messages (image, fullname, email, subject, message) VALUES ('default.jpg', '$name', '$email', '$subject', '$message')";
+                mysqli_query($connect, $sql);
 
                 $name = "";
                 $email = "";
                 $subject = "";
                 $message = "";
-              } catch (Exception $e) {
-                // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-              }
+            //   $mail = new PHPMailer(true);
+                
+            //   try {
+            //     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                                    	//Display output
+            //     $mail->SMTPDebug = 3;                                                       //Display output
+            //     $mail->isSMTP(); 
+            //     $mail->Host       = 'smtp.office365.com';                                   //Set the SMTP server to send through
+            //     $mail->SMTPAuth   = true;                                                   //Enable SMTP authentication
+            //     $mail->Password   = '@Burgershot123';                                       //SMTP password
+            //     $mail->SMTPSecure = "STARTTLS";                                             //Enable implicit TLS encryption
+            //     $mail->Port       = 587;                                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+            //     // Recipients
+            //     $mail->setFrom('burgershot.service@outlook.com', 'Burger Shot Service');
+            //     $mail->addAddress($email, $name);                                           //Add a recipient & Name is optional
+            //     $mail->addReplyTo('burgershot.service@outlook.com', 'Reply');
+
+            //     // Content
+            //     $mail->isHTML(true);                                                        //Set email format to HTML
+            //     $mail->Subject = 'Message from Burger Shot';
+            //     $mail->Body    = 'We received your message';
+            //     $mail->AltBody = 'Hello, ' . $name . '! We received your message from Contact Us. Thank you for reaching us out and we will try out best to respond soonest!';
+
+            //     $mail->send();
+            //     echo 'Message has been sent';
+
+            //     $message_delivered = true;
+
+            //     $name = "";
+            //     $email = "";
+            //     $subject = "";
+            //     $message = "";
+            //   } catch (Exception $e) {
+            //     // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+            //   }
             } else {
               if(strlen($name) <= 6) $errName = "Your name is too short!";
               if(!filter_var($email, FILTER_VALIDATE_EMAIL)) $errEmail = "Your email is invalid!";

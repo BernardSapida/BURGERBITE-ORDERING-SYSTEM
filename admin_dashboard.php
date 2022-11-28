@@ -120,13 +120,13 @@
                                     echo "<td>" . $row['id'] . "</td>";
                                     echo "<td><img src='profile/".$row['image']."' alt='Profile Image'></td>";
                                     echo "<td>" . $row['firstname'] . " " . $row['lastname'] . "</td>";
-                                    echo "<td>" . $row['transactionNo'] . "</td>";
+                                    echo "<td>" . $row['trackingNo'] . "</td>";
                                     echo "<td>" .$row['orderNo'] . "</td>";
                                     echo "<td>" . $row['quantity'] . "</td>";
                                     echo "<td>₱" . number_format($row['total']) . "</td>";
                                     echo "<td>" . $row['date'] . "</td>";
                                     echo "<td><div class='status ". ($row['status'] == 'Pending' ? 'pending' : ($row['status'] == 'Processing' ? "processing" : ($row['status'] == 'Delivering' ? "delivering" : ($row['status'] == 'Completed' ? "completed" : ""))))."'></div>" . $row['status'] . "</td>";
-                                    echo "<td><button type='button' class='view_details' onclick='location.href=\"admin_dashboard.php?tn=" . $row['transactionNo'] . "&ci=". $row['clientid'] ."\"' aria-label='View details'>View Details</button></td>";
+                                    echo "<td><button type='button' class='view_details' onclick='location.href=\"admin_dashboard.php?tn=" . $row['trackingNo'] . "&ci=". $row['clientid'] ."\"' aria-label='View details'>View Details</button></td>";
                                 echo "</tr>";
                             }
                         ?>
@@ -136,7 +136,7 @@
         </section>
         <?php
             if(isset($_GET["tn"]) && isset($_GET["ci"])) {
-                $sql_client_order_details = mysqli_query($connect,"SELECT * FROM client_orders WHERE transactionNo = '". $_GET["tn"] ."' and clientid= '". $_GET["ci"] ."'");
+                $sql_client_order_details = mysqli_query($connect,"SELECT * FROM client_orders WHERE trackingNo = '". $_GET["tn"] ."' and clientid= '". $_GET["ci"] ."'");
                 echo "<section class='section_modal_client-details'>
                         <div class='container_modal-client-details'>
                             <div class='container_table-header'>
@@ -155,7 +155,7 @@
                                     echo "</tr>";
                                     echo "<tr>";
                                         echo "<td>Transaction No.</td>";
-                                        echo "<td>" . $row['transactionNo'] . "</td>";
+                                        echo "<td>" . $row['trackingNo'] . "</td>";
                                     echo "</tr>";
                                     echo "<tr>";
                                         echo "<td>Order No.</td>";
