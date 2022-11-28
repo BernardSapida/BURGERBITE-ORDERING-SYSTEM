@@ -81,12 +81,12 @@ CREATE TABLE `client_orders` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `client_information` (`id`, `clientid`, `image`, `firstname`, `lastname`, `email`, `mobile`, `street address`, `city`, `barangay`) VALUES
-(1, '638916278d630b6121', 'default.jpg', 'Bernard', 'Sapida', 'burgershot@gmail.com', '', '', '', ''),
-(2, '297196278d6238832f', 'default.jpg', 'Bernard', 'Sapida', 'bernard.sapida@cvsu.edu.ph', '', '', '', '');
+(1, '638916278d630b6121', 'default.jpg', 'Mark', 'Masacupan', 'burgershot@gmail.com', '', '', '', ''),
+(2, '297196278d6238832f', 'default.jpg', 'Mark', 'Masacupan', 'mark.masacupan@gmail.com', '', '', '', '');
 
 INSERT INTO `client_accounts` (`id`, `clientid`, `image`, `fullname`, `email`, `password`, `type`, `date`) VALUES
-(1, '638916278d630b6121', 'default.jpg', 'Bernard Sapida', 'burgershot@gmail.com', '$2y$10$uAZNcNZonOAGcZFiVnYCsOWWa7Dy8afLmgGac5iboe/PFZtMuNzyW', 'admin', '2022-05-09 12:50:57'),
-(2, '297196278d6238832f', 'default.jpg', 'Bernard Sapida', 'bernard.sapida@cvsu.edu.ph', '$2y$10$FKMuc5MuVh5dGhPKmtUPeemOvTd9thIFwjZKuR0WuLiWh6Aqy5OfG', 'client', '2022-05-09 14:39:41');
+(1, '638916278d630b6121', 'default.jpg', 'Mark Masacupan', 'burgershot@gmail.com', '$2y$10$uAZNcNZonOAGcZFiVnYCsOWWa7Dy8afLmgGac5iboe/PFZtMuNzyW', 'admin', '2022-05-09 12:50:57'),
+(2, '297196278d6238832f', 'default.jpg', 'Mark Masacupan', 'mark.masacupan@gmail.com', '$2y$10$FKMuc5MuVh5dGhPKmtUPeemOvTd9thIFwjZKuR0WuLiWh6Aqy5OfG', 'client', '2022-05-09 14:39:41');
 
 ALTER TABLE `client_information`
   ADD PRIMARY KEY (`id`);

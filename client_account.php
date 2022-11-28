@@ -88,7 +88,7 @@
                 <form action="" method="POST">
                     <label for="client-email-hidden">
                         <p>Email <span>*</span></p>
-                        <input type="text" name="client-email-hidden" id="client-email-hidden" value="bernardsapida1706@gmail.com" autocomplete="email" disabled>
+                        <input type="text" name="client-email-hidden" id="client-email-hidden" value="markjiggermasacupan.ph@gmail.com" autocomplete="email" disabled>
                     </label>
                     <div class="container_password">
                         <label for="client-password-current">

@@ -5,7 +5,7 @@
 
     if(empty($_SESSION["type"]) || $_SESSION["type"] == "client") header("Location: index.php");
 
-    $connect = mysqli_connect("localhost", "root", "", "burgershot");
+    $connect = mysqli_connect("localhost", "hdtdywpk_burgershot", "NBAp76!$%", "hdtdywpk_burgershot");
     $sql = mysqli_query($connect,"SELECT * FROM client_orders");
     $sql_accounts_incomplete_orders = mysqli_query($connect,"SELECT * FROM client_orders WHERE status != 'Completed'");
     $sql_accounts_complete_orders = mysqli_query($connect,"SELECT * FROM client_orders WHERE status = 'Completed'");

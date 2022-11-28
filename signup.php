@@ -43,7 +43,7 @@
               	$signup_success = true;
                 $encryptPassword = password_hash($password, PASSWORD_DEFAULT);
 
-                $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);
+                $connect = mysqli_connect("localhost", "hdtdywpk_burgershot", "NBAp76!$%", "hdtdywpk_burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);
                 $sqlAccounts = "INSERT INTO client_accounts (`clientid`, `image`, `fullname`, `email`, `password`, `type`)
                 VALUES ('$uid', '$image', '$firstname $lastname', '$email', '$encryptPassword', '$type')";
                 mysqli_query($connect, $sqlAccounts);

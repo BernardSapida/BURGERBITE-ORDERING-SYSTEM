@@ -59,7 +59,7 @@
             $orderNo = explode(".", uniqid("",true))[1];
             $status = "Pending";
 
-            $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);
+            $connect = mysqli_connect("localhost", "hdtdywpk_burgershot", "NBAp76!$%", "hdtdywpk_burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);
             $sql = "INSERT INTO `client_orders`
             (`clientid`, `firstname`, `lastname`, `image`, `street address`, `city`, `barangay`, `trackingNo`, `orderNo`, 
             `item1`, `item2`, `item3`, 

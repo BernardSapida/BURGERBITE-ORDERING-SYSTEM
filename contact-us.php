@@ -33,7 +33,7 @@
 
 
         if(!empty($name) && !empty($email) && !empty($subject) && !empty($message)) {
-            $connect = mysqli_connect("localhost", "root", "", "burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);;
+            $connect = mysqli_connect("localhost", "hdtdywpk_burgershot", "NBAp76!$%", "hdtdywpk_burgershot") or die("ERROR: Could not connect. " .  $connect->connect_error);;
             
 
             if(strlen($name) > 6 && filter_var($email, FILTER_VALIDATE_EMAIL) && strlen($subject) > 2 && strlen($message) > 10) {

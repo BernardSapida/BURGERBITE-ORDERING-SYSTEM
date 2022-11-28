@@ -4,7 +4,7 @@
     if(empty($_SESSION["type"]) || $_SESSION["type"] == "admin") header("Location: index.php");
     if(empty($_GET["status"])) header("Location: client_status.php?status=Pending");
     $clientid = $_SESSION['clientid'];
-    $connect = mysqli_connect("localhost", "root", "", "burgershot");
+    $connect = mysqli_connect("localhost", "hdtdywpk_burgershot", "NBAp76!$%", "hdtdywpk_burgershot");
     $sql_accounts_pending = mysqli_query($connect,"SELECT * FROM client_orders where status = 'Pending' and clientid = '". $_SESSION['clientid']. "'");
     $sql_accounts_processing = mysqli_query($connect,"SELECT * FROM client_orders where status = 'Processing' and clientid = '". $_SESSION['clientid']. "'");
     $sql_accounts_delivering = mysqli_query($connect,"SELECT * FROM client_orders where status = 'Delivering' and clientid = '". $_SESSION['clientid']. "'");
