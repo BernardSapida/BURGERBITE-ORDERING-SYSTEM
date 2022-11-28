@@ -5,14 +5,6 @@
 
     if($_SESSION["type"] == "admin") header("Location: admin_dashboard.php");
 
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\SMTP;
-    use PHPMailer\PHPMailer\Exception;
-
-    require 'PHPMailer/src/Exception.php';
-    require 'PHPMailer/src/PHPMailer.php';
-    require 'PHPMailer/src/SMTP.php';
-
     if(isset($_POST["submit_message"])) {
         $name = htmlspecialchars($_POST["name"]);
         $email = $_POST["email"];
@@ -39,41 +31,6 @@
                 $email = "";
                 $subject = "";
                 $message = "";
-            //   $mail = new PHPMailer(true);
-                
-            //   try {
-            //     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                                    	//Display output
-            //     $mail->SMTPDebug = 3;                                                       //Display output
-            //     $mail->isSMTP(); 
-            //     $mail->Host       = 'smtp.office365.com';                                   //Set the SMTP server to send through
-            //     $mail->SMTPAuth   = true;                                                   //Enable SMTP authentication
-            //     $mail->Password   = '@Burgershot123';                                       //SMTP password
-            //     $mail->SMTPSecure = "STARTTLS";                                             //Enable implicit TLS encryption
-            //     $mail->Port       = 587;                                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-            //     // Recipients
-            //     $mail->setFrom('burgershot.service@outlook.com', 'Burger Shot Service');
-            //     $mail->addAddress($email, $name);                                           //Add a recipient & Name is optional
-            //     $mail->addReplyTo('burgershot.service@outlook.com', 'Reply');
-
-            //     // Content
-            //     $mail->isHTML(true);                                                        //Set email format to HTML
-            //     $mail->Subject = 'Message from Burger Shot';
-            //     $mail->Body    = 'We received your message';
-            //     $mail->AltBody = 'Hello, ' . $name . '! We received your message from Contact Us. Thank you for reaching us out and we will try out best to respond soonest!';
-
-            //     $mail->send();
-            //     echo 'Message has been sent';
-
-            //     $message_delivered = true;
-
-            //     $name = "";
-            //     $email = "";
-            //     $subject = "";
-            //     $message = "";
-            //   } catch (Exception $e) {
-            //     // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-            //   }
             } else {
               if(strlen($name) <= 6) $errName = "Your name is too short!";
               if(!filter_var($email, FILTER_VALIDATE_EMAIL)) $errEmail = "Your email is invalid!";
