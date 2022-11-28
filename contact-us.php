@@ -3,12 +3,7 @@
 
     error_reporting(E_ERROR | E_PARSE);
 
-    if(!empty($_SESSION["type"])) {
-        if($_SESSION["type"] == "admin") header("Location: admin_dashboard.php");
-    }
-    else if(!empty($_SESSION["type"])) {
-        if($_SESSION["type"] == "client") header("Location: index.php");
-    }
+    if($_SESSION["type"] == "admin") header("Location: admin_dashboard.php");
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
