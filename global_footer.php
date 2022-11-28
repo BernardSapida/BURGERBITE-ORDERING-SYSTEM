@@ -1,17 +1,17 @@
-<!-- BurgerHub Footer -->
+<!-- Burger Shot Footer -->
 <footer class="footer_burgerhub">
     <section class="section_footer-description">
         <div class="footer_logo">
             <img src="images/logo/burger-logo.png" alt="">
-            <h1 class="restaurant-name"> BurgerHub</h1>
+            <h1 class="restaurant-name"> Burger Shot</h1>
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quos ad possimus aut rerum id molestiae.</p>
     </section>
     <section class="section_footer-contact">
         <h1>Contact</h1>
-        <p><span><i class="fa-solid fa-location-dot"></i></span>City of Imus, Cavite, Region IV-A Calabarzon, Philippines</p>
-        <p><span><i class="fa-solid fa-phone-flip"></i></span>0947-212-6029</p>
-        <p><span><i class="fa-solid fa-envelope"></i></span>burgerhub@gmail.com</p>
+        <p><span><i class="fa-solid fa-location-dot"></i></span>20 National Road, Barangay Sulib, Pangil, Laguna</p>
+        <p><span><i class="fa-solid fa-phone-flip"></i></span>0918-423-2726</p>
+        <p><span><i class="fa-solid fa-envelope"></i></span>burgershot@gmail.com</p>
     </section>
     <section class="section_footer-links">
         <h1>Links</h1>
@@ -26,10 +26,10 @@
     <section class="section_footer-accounts">
         <h1>Social Accounts</h1>
         <ul>
-            <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-solid fa-at"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100084917840029" aria-label="Redirect to Mark Jigger Masacupan facebook account"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100084917840029" aria-label="Redirect to Mark Jigger Masacupan facebook account"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100084917840029" aria-label="Redirect to Mark Jigger Masacupan facebook account"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100084917840029" aria-label="Redirect to Mark Jigger Masacupan facebook account"><i class="fa-solid fa-at"></i></a></li>
         </ul>
     </section>
 </footer>

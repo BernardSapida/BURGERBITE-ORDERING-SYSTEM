@@ -1,9 +1,9 @@
-<!-- BurgerHub Header -->
-<header class="header_burgerhub">
-    <nav class="navigation_burgerhub">
+<!-- Burger Shot Header -->
+<header class="header_burgershot">
+    <nav class="navigation_burgershot">
         <div class="navigation_logo">
-            <img src="images/logo/burger-logo.png" alt="BurgerHub Logo">
-            <h1 class="restaurant-name">BurgerHub</h1>
+            <img src="images/logo/burger-logo.png" alt="Burger Shot Logo">
+            <h1 class="restaurant-name">Burger Shot</h1>
         </div>
         <ul class="nav_links" id="nav_links">
             <li class="links"><a href="index.php">Home</a></li>
@@ -28,7 +28,7 @@
 </header>
 
 <!-- BurgerHub Loader -->
-<div class="loader_burgerhub">
+<div class="loader_burgershot">
     <div class="container">
         <div></div><div></div>
         <p>Loading</p>

@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
-  	<meta property="og:title" content="Burgerhub Restaurant | Admin">
+  	<meta property="og:title" content="Burger Shot Restaurant | Admin">
     <meta property="og:url" content="https://burgerhub.x10.mx/admin_clients.php">
     <meta property="og:image" content="images/website-image.jpg">
     <link rel="icon" type="image/any-icon" href="images/burgerhub.ico">

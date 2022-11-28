@@ -53,7 +53,7 @@
 </header>
 
 <!-- BurgerHub Loader -->
-<div class="loader_burgerhub">
+<div class="loader_burgershot">
     <div class="container">
         <div></div><div></div>
         <p>Loading</p>

@@ -62,7 +62,7 @@ body {
   overflow-x: hidden;
 }
 
-body .loader_burgerhub {
+body .loader_burgershot {
   position: fixed;
   top: 0;
   left: 0;
@@ -72,7 +72,7 @@ body .loader_burgerhub {
   z-index: 5;
 }
 
-body .loader_burgerhub .container {
+body .loader_burgershot .container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -82,7 +82,7 @@ body .loader_burgerhub .container {
           transform: translate(-50%, -50%);
 }
 
-body .loader_burgerhub .container p {
+body .loader_burgershot .container p {
   position: inherit;
   text-align: center;
   bottom: -30px;
@@ -91,7 +91,7 @@ body .loader_burgerhub .container p {
           transform: translateX(-50%);
 }
 
-body .loader_burgerhub .container div {
+body .loader_burgershot .container div {
   position: absolute;
   border: 4px solid #fff;
   opacity: 1;
@@ -100,7 +100,7 @@ body .loader_burgerhub .container div {
           animation: ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 
-body .loader_burgerhub .container div:nth-child(2) {
+body .loader_burgershot .container div:nth-child(2) {
   -webkit-animation-delay: -0.5s;
           animation-delay: -0.5s;
 }
