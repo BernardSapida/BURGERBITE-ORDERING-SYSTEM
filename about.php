@@ -35,7 +35,7 @@
             <div class="container_story">
                 <div class="container_story-description">
                     <h1>About Our Story</h1>
-                    <p>In 2021, a four freshmen college student named Mark Jigger Masacupan looked to create a restaurant idea of their own in Imus, Cavite. In the same year, they took a risk by founding their own burger restaurant and decided to name it Burger Shot. The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.</p>
+                    <p>In 2022, a student from Laguna State Polytechnic University decided to project a business that will help his financial so that he setup a restaurant operationally, and named it as “Burger Shot” which originally came from the idea in the video game of Grand Theft Auto: V that enables customer to eat in satisfactory way and offers a friendly-way order.</p>
                     <button class="redirect-menu" type="button">VIEW FULL MENU</button>
                 </div>
                 <div class="container_story-image">

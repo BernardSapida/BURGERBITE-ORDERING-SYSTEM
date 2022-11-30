@@ -148,12 +148,13 @@ body header.header_burgershot nav.navigation_burgershot div.navigation_logo img 
   width: 100%;
 }
 
-body header.header_burgershot nav.navigation_burgershot div.navigation_logo h1.restaurant-name {
+body header.header_burgershot nav.navigation_burgershot div.navigation_logo h1.restaurant-name a {
   margin-bottom: 2px;
   font-family: 'Grenze Gotisch';
   font-size: 34px;
   color: var(--yellow);
   line-height: 1;
+  text-decoration: none;
 }
 
 body header.header_burgershot nav.navigation_burgershot ul.nav_links {
@@ -369,7 +370,7 @@ body header.header_burgershot nav.navigation_burgershot div.navigation_right .na
     max-width: 50px;
     width: 100%;
   }
-  body header.header_burgershot nav.navigation_burgershot div.navigation_logo h1.restaurant-name {
+  body header.header_burgershot nav.navigation_burgershot div.navigation_logo h1.restaurant-name a {
     display: none;
   }
   body header.header_burgershot nav.navigation_burgershot div.navigation_right {
