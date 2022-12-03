@@ -1,18 +1,9 @@
 <?php
     session_start();
 
-    // error_reporting(E_ERROR | E_PARSE);
+    error_reporting(E_ERROR | E_PARSE);
 
     if($_SESSION["type"] == "admin") header("Location: admin_dashboard.php");
-
-    // use PHPMailer\PHPMailer\PHPMailer;
-    // use PHPMailer\PHPMailer\SMTP;
-    // use PHPMailer\PHPMailer\Exception;
-
-    // require 'PHPMailer/src/Exception.php';
-    // require 'PHPMailer/src/PHPMailer.php';
-    // require 'PHPMailer/src/SMTP.php';
-    // require_once "email_message-received.php";
 
     if(isset($_POST["submit_message"])) {
         $name = htmlspecialchars($_POST["name"]);
@@ -34,41 +25,10 @@
             mysqli_query($connect, $sql);
 
             if(strlen($name) > 6 && filter_var($email, FILTER_VALIDATE_EMAIL) && strlen($subject) > 2 && strlen($message) > 10) {
-              // $mail = new PHPMailer(true);
-                
-              try {
-                // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                                    	//Display output
-                // $mail->SMTPDebug = 3;                                                       //Display output
-                // $mail->isSMTP(); 
-                // $mail->Host       = 'smtp.office365.com';                                   //Set the SMTP server to send through
-                // $mail->SMTPAuth   = true;                                                   //Enable SMTP authentication
-                // $mail->Password   = 'burgerhub30241715';                                    //SMTP password
-                // $mail->SMTPSecure = "STARTTLS";                                             //Enable implicit TLS encryption
-                // $mail->Port       = 587;                                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-                //Recipients
-                // $mail->setFrom('burgerhub.service@outlook.com', 'BurgerHub Service');
-                // $mail->addAddress($email, $name);                                           //Add a recipient & Name is optional
-                // $mail->addReplyTo('burgerhub.service@outlook.com', 'Reply');
-
-                // Content
-                // $mail->isHTML(true);                                                        //Set email format to HTML
-                // $mail->Subject = 'Message from BurgerHub';
-                // $mail->Body    = $_SESSION["email_message-received"];
-                // $mail->AltBody = 'Hello, ' . $name . '! We received your message from Contact Us. Thank you for reaching us out and we will try out best to respond soonest!';
-
-                // $mail->send();
-                // echo 'Message has been sent';
-
-                $message_delivered = true;
-
                 $name = "";
                 $email = "";
                 $subject = "";
                 $message = "";
-              } catch (Exception $e) {
-                // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-              }
             } else {
               if(strlen($name) <= 6) $errName = "Your name is too short!";
               if(!filter_var($email, FILTER_VALIDATE_EMAIL)) $errEmail = "Your email is invalid!";
@@ -111,7 +71,7 @@
         <section class="section_contact-page">
             <div class="container_map">
                 <h1>Contact Us</h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61831.420441104514!2d120.90147162171846!3d14.400407872058466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d252b84f3c11%3A0x38b0f2e1f833e8df!2sImus%2C%20Cavite!5e0!3m2!1sen!2sph!4v1651582995336!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123414.75239026334!2d120.91682164840897!3d14.841468542189393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ac22ac27a55f%3A0x4a8611643c5c0dd0!2sSanta%20Maria%2C%20Bulacan!5e0!3m2!1sen!2sph!4v1670100573282!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 

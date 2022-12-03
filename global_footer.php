@@ -9,8 +9,8 @@
     </section>
     <section class="section_footer-contact">
         <h1>Contact</h1>
-        <p><span><i class="fa-solid fa-location-dot"></i></span>City of Imus, Cavite, Region IV-A Calabarzon, Philippines</p>
-        <p><span><i class="fa-solid fa-phone-flip"></i></span>0947-212-6029</p>
+        <p><span><i class="fa-solid fa-location-dot"></i></span>Caypombo, Santa Maria, Bulacan, Philippines</p>
+        <p><span><i class="fa-solid fa-phone-flip"></i></span>0960-298-2050</p>
         <p><span><i class="fa-solid fa-envelope"></i></span>burgerhub@gmail.com</p>
     </section>
     <section class="section_footer-links">

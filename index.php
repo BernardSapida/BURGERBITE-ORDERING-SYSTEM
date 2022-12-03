@@ -153,15 +153,6 @@
                     <div class="image_centered">
                         <img src="images/profiles/Profile.png" alt="">
                     </div>
-                    <div class="image_circumference">
-                        <img src="images/profiles/Mojica.jpg" alt="">
-                    </div>
-                    <div class="image_circumference">
-                        <img src="images/profiles/Mojica.jpg" alt="">
-                    </div>
-                    <div class="image_circumference">
-                        <img src="images/profiles/Mojica.jpg" alt="">
-                    </div>
                 </div>
                 <div class="container_profile-quotes">
                     <p class="favicon-quote"><i class="fa-solid fa-quote-right"></i></p>
