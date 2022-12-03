@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="image" content="images/website-image.jpg">
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
-    <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
+    
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
     <meta property="og:title" content="Burgerhub Restaurant | Home">
     <meta property="og:url" content="https://burgerhub.x10.mx/index.php">
@@ -49,10 +49,10 @@
                     <div class="container_contact-info">
                         <div class="accounts">
                             <ul>
-                                <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-twitter"></i></a></li>
-                                <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-solid fa-at"></i></a></li>
+                                <li><a href="https://www.facebook.com/lyndonelmar.bolotaolo.3/" aria-label="Redirect to Lyndon Elmar Bolotaolo facebook account"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/lyndonelmar.bolotaolo.3/" aria-label="Redirect to Lyndon Elmar Bolotaolo facebook account"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/lyndonelmar.bolotaolo.3/" aria-label="Redirect to Lyndon Elmar Bolotaolo facebook account"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/lyndonelmar.bolotaolo.3/" aria-label="Redirect to Lyndon Elmar Bolotaolo facebook account"><i class="fa-solid fa-at"></i></a></li>
                             </ul>
                         </div>
                         <div class="tel-number">
@@ -167,8 +167,7 @@
                     <p class="favicon-quote"><i class="fa-solid fa-quote-right"></i></p>
                     <p class="our-quote" id="quote">Individual commitment to a team effort that is what makes a team work, a company work, a society work, and a civilization work.</p>
                     <h1 class="our-name" >
-                        <span id="name">Bernard V. Sapida</span>
-                        <img src="images/signature/Signature_Sapida.png" id="signature" alt="Signature">
+                        <span id="name">Lyndon Elmar Bolotaolo</span>
                     </h1>
                     <p class="our-position" id="position">Chief Executive Officer</p>
                 </div>
@@ -185,6 +184,5 @@
     </main>
 
     <?php include_once 'global_footer.php' ?>
-    <script src="js/index.js"></script>
 </body>
 </html>

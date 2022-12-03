@@ -12,12 +12,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
+    <meta name="author" content="Lyndon Elmar Bolotaolo">
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
     <link rel="icon" type="image/any-icon" href="images/burgerhub.ico">
-  	<meta property="og:title" content="Burgerhub Restaurant | About Us">
-    <meta property="og:url" content="https://burgerhub.x10.mx/about.php">
-    <meta property="og:image" content="images/image-card.jpg">
+  	
     <?php
         if(empty($_SESSION["email"])) echo '<link rel="stylesheet" href="css/header.css">'; 
         if($_SESSION["type"] == "client") echo '<link rel="stylesheet" href="css/client_header.css">'; 
@@ -37,7 +35,7 @@
             <div class="container_story">
                 <div class="container_story-description">
                     <h1>About Our Story</h1>
-                    <p>In 2021, a four freshmen college students named Bernard Sapida, Zildjian Lee Loren, Jan Marichie Mojica and John Herson Radones looked to create a restaurant idea of their own in Imus, Cavite. In the same year, they took a risk by founding their own burger restaurant and decided to name it BurgerHub. The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.</p>
+                    <p>In 2022, a four freshmen college students named Lyndon Elmar Bolotaolo looked to create a restaurant idea of their own in Imus, Cavite. In the same year, they took a risk by founding their own burger restaurant and decided to name it BurgerHub. The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.</p>
                     <button class="redirect-menu" type="button">VIEW FULL MENU</button>
                 </div>
                 <div class="container_story-image">
@@ -110,32 +108,6 @@
                 <div class="container_quality-service-description">
                     <h1>Quality Service and Cleanliness</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus reiciendis eligendi illo odit quo aliquid quibusdam vitae et minus error eius repellat, incidunt, nostrum eaque atque impedit harum excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus reiciendis eligendi illo odit quo aliquid quibusdam vitae et minus error eius repellat, incidunt, nostrum eaque atque impedit harum excepturi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores delectus reiciendis eligendi illo odit quo aliquid quibusdam vitae et minus error eius repellat, incidunt, nostrum eaque atque impedit harum excepturi.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Burgerhub Members Contribution-->
-        <section class="section_members-participation" id="section_members-participation">
-            <div class="container_members-participation">
-                <div class="container_members-participation-header">
-                    <h1>Members' Contribution</h1>
-                    <hr>
-                </div>
-                <div class="container_members-participation-body">
-                    <div class="members-1">
-                        <h2 class="title">Frontend & Backend Developer: </h2>
-                        <p class="names">SAPIDA, BERNARD V.</p>
-                    </div>
-                    <div class="members-2">
-                        <h2 class="title">UI/UX Design, Contents, & Editing: </h2>
-                        <p class="names">RADONES, JOHN HERSON L.</p>
-                        <p class="names">MOJICA, JAN MARICHIE Z.</p>
-                        <p class="names">LOREN, ZILDJIAN LEE G.</p>
-                    </div>
-                </div>
-                <div class="container_members-participation-footer">
-                    <hr>
-                    <button aria-label="Okay Button" id="btn-participation">Okay</button>
                 </div>
             </div>
         </section>

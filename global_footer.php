@@ -26,10 +26,10 @@
     <section class="section_footer-accounts">
         <h1>Social Accounts</h1>
         <ul>
-            <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/wuzzupZo/" aria-label="Redirect to Bernard Sapida facebook account"><i class="fa-solid fa-at"></i></a></li>
+            <li><a href="https://www.facebook.com/lyndonelmar.bolotaolo.3/" aria-label="Redirect to Lyndon Elmar Bolotaolo facebook account"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://www.facebook.com/lyndonelmar.bolotaolo.3/" aria-label="Redirect to Lyndon Elmar Bolotaolo facebook account"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/lyndonelmar.bolotaolo.3/" aria-label="Redirect to Lyndon Elmar Bolotaolo facebook account"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/lyndonelmar.bolotaolo.3/" aria-label="Redirect to Lyndon Elmar Bolotaolo facebook account"><i class="fa-solid fa-at"></i></a></li>
         </ul>
     </section>
 </footer>
