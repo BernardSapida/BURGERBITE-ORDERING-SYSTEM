@@ -233,7 +233,7 @@ body main section.section_burger-layer div.container_burger-layers div.container
 
 body main section.section_burger-layer div.container_burger-layers div.container_burger-contents {
   margin: 20px 50px;
-  width: 350px;
+  width: max-content;
 }
 
 body main section.section_burger-layer div.container_burger-layers div.container_burger-contents h1.burger-name {
