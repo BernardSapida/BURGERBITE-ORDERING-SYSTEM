@@ -3,7 +3,7 @@
 
     if(empty($_SESSION["type"]) || $_SESSION["type"] == "client") header("Location: index.php");
 
-    $connect = mysqli_connect("localhost", "yoyiqlnx_burgerbites", "@Burgerbites1708131117", "yoyiqlnx_burgerbites");
+    $connect = mysqli_connect("localhost", "root", "", "yoyiqlnx_burgerbites");
     $sql_accounts = mysqli_query($connect, "SELECT * FROM client_information");
 ?>
 

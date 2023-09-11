@@ -21,7 +21,7 @@
 
         if(!empty($email)) {
             if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                $connect = mysqli_connect("localhost", "yoyiqlnx_burgerbites", "@Burgerbites1708131117", "yoyiqlnx_burgerbites"); or die("ERROR: Could not connect. " .  $connect->connect_error);
+                $connect = mysqli_connect("localhost", "root", "", "yoyiqlnx_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
                 $sql_accounts = "SELECT * FROM client_accounts where email = '" . $email . "'";
                 $result = mysqli_query($connect, $sql_accounts);
                 $row_result = mysqli_fetch_array($result);
@@ -38,7 +38,7 @@
                         // $mail->Host       = 'smtp.office365.com';                                   //Set the SMTP server to send through
                         // $mail->SMTPAuth   = true;                                                   //Enable SMTP authentication
                         // $mail->Username   = 'BurgerBites.service@outlook.com';                        //SMTP username
-                        // $mail->Password   = '@Burgerbites1708131117';                                    //SMTP password
+                        // $mail->Password   = '@Password';                                    //SMTP password
                         // $mail->SMTPSecure = "STARTTLS";                                             //Enable implicit TLS encryption
                         // $mail->Port       = 587;                                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
         
