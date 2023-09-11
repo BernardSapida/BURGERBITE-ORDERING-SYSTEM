@@ -1,12 +1,12 @@
 window.onload = function() { 
-  const loader = document.querySelector('.loader_burgerhub');
+  const loader = document.querySelector('.loader_burgerbites');
   loader.remove();
 };
 
 $(document).ready(function(){
     $("#navigation_responsive").click(function(){
       $("ul.nav_links").toggleClass("open dark", $('#hamburger-menu')[0].checked);
-      $("header.header_burgerhub").toggleClass("dark", $('#hamburger-menu')[0].checked);
+      $("header.header_burgerbites").toggleClass("dark", $('#hamburger-menu')[0].checked);
     });
 
     $("li.links").click(function() {
@@ -24,9 +24,9 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
       if ($(this).scrollTop() == 0) {
-        $("header.header_burgerhub").css({"background-color": "transparent"});
+        $("header.header_burgerbites").css({"background-color": "transparent"});
       } else {
-        $("header.header_burgerhub").css({"background-color": "var(--primary-dark)"});
+        $("header.header_burgerbites").css({"background-color": "var(--primary-dark)"});
       }
     });
 });

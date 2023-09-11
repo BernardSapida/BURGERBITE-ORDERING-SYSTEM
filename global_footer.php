@@ -1,5 +1,5 @@
 <!-- BurgerBites Footer -->
-<footer class="footer_burgerhub">
+<footer class="footer_burgerbites">
     <section class="section_footer-description">
         <div class="footer_logo">
             <img src="images/logo/burgerbites-logo.png" alt="">

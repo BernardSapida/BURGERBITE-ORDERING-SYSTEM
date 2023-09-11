@@ -1,6 +1,6 @@
 <!-- BurgerBites Header -->
-<header class="header_burgerhub">
-    <nav class="navigation_burgerhub">
+<header class="header_burgerbites">
+    <nav class="navigation_burgerbites">
         <div class="navigation_logo">
             <img src="images/logo/burgerbites-logo.png" alt="BurgerBites Logo">
             <h1 class="restaurant-name">BurgerBites</h1>
@@ -28,7 +28,7 @@
 </header>
 
 <!-- BurgerBites Loader -->
-<div class="loader_burgerhub">
+<div class="loader_burgerbites">
     <div class="container">
         <div></div><div></div>
         <p>Loading</p>

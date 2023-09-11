@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    // error_reporting(E_ERROR | E_PARSE);
+    error_reporting(E_ERROR | E_PARSE);
 
     if($_SESSION["type"] == "admin") header("Location: admin_dashboard.php");
 
@@ -29,7 +29,7 @@
 
 
         if(!empty($name) && !empty($email) && !empty($subject) && !empty($message)) {
-            $connect = mysqli_connect("localhost", "grgpiwqy_burgerhub","burgerhub30241715", "grgpiwqy_burgerhub") or die("ERROR: Could not connect. " .  $connect->connect_error);;
+            $connect = mysqli_connect("localhost", "yoyiqlnx_burgerbites","@Burgerbites1708131117", "yoyiqlnx_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);;
             $sql = "INSERT INTO client_messages (image, fullname, email, subject, message) VALUES ('default.jpg', '$name', '$email', '$subject', '$message')";
             mysqli_query($connect, $sql);
 
@@ -42,7 +42,7 @@
                 // $mail->isSMTP(); 
                 // $mail->Host       = 'smtp.office365.com';                                   //Set the SMTP server to send through
                 // $mail->SMTPAuth   = true;                                                   //Enable SMTP authentication
-                // $mail->Password   = 'burgerhub30241715';                                    //SMTP password
+                // $mail->Password   = '@Burgerbites1708131117';                                    //SMTP password
                 // $mail->SMTPSecure = "STARTTLS";                                             //Enable implicit TLS encryption
                 // $mail->Port       = 587;                                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 

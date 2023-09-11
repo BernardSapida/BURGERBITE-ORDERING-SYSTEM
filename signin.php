@@ -9,7 +9,7 @@
         $password = $_POST["password"];
         
         if(!empty($email) && !empty($password)) {
-            $connect = mysqli_connect("localhost", "grgpiwqy_burgerhub", "burgerhub30241715", "grgpiwqy_burgerhub") or die("ERROR: Could not connect. " .  $connect->connect_error);
+            $connect = mysqli_connect("localhost", "yoyiqlnx_burgerbites", "@Burgerbites1708131117", "yoyiqlnx_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
             $message = "";
             $sql_account = mysqli_query($connect, "SELECT * FROM client_accounts WHERE email='" . $email . "' ");
             $sql_information = mysqli_query($connect, "SELECT * FROM client_information WHERE email='" . $email . "' ");

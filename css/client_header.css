@@ -62,7 +62,7 @@ body {
   overflow-x: hidden;
 }
 
-body .loader_burgerhub {
+body .loader_burgerbites {
   position: fixed;
   top: 0;
   left: 0;
@@ -72,7 +72,7 @@ body .loader_burgerhub {
   z-index: 5;
 }
 
-body .loader_burgerhub .container {
+body .loader_burgerbites .container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -82,7 +82,7 @@ body .loader_burgerhub .container {
           transform: translate(-50%, -50%);
 }
 
-body .loader_burgerhub .container p {
+body .loader_burgerbites .container p {
   position: inherit;
   text-align: center;
   bottom: -30px;
@@ -91,7 +91,7 @@ body .loader_burgerhub .container p {
           transform: translateX(-50%);
 }
 
-body .loader_burgerhub .container div {
+body .loader_burgerbites .container div {
   position: absolute;
   border: 4px solid #fff;
   opacity: 1;
@@ -100,12 +100,12 @@ body .loader_burgerhub .container div {
           animation: ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 
-body .loader_burgerhub .container div:nth-child(2) {
+body .loader_burgerbites .container div:nth-child(2) {
   -webkit-animation-delay: -0.5s;
           animation-delay: -0.5s;
 }
 
-body header.header_burgerhub {
+body header.header_burgerbites {
   width: 100%;
   position: fixed;
   top: 0;
@@ -119,7 +119,7 @@ body header.header_burgerhub {
   z-index: 3;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub {
+body header.header_burgerbites nav.navigation_burgerbites {
   margin: auto;
   max-width: 1350px;
   width: 100%;
@@ -134,7 +134,7 @@ body header.header_burgerhub nav.navigation_burgerhub {
           justify-content: space-between;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_logo {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,12 +143,12 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_logo {
           align-items: center;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_logo img {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_logo img {
   max-width: 70px;
   width: 100%;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_logo h1.restaurant-name {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_logo h1.restaurant-name {
   margin-bottom: 2px;
   font-family: 'Grenze Gotisch';
   font-size: 34px;
@@ -156,25 +156,25 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_logo h1.res
   line-height: 1;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub ul.nav_links {
+body header.header_burgerbites nav.navigation_burgerbites ul.nav_links {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li.hide {
+body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li.hide {
   display: none !important;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li.active a {
+body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li.active a {
   color: var(--yellow);
 }
 
-body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li#signin {
+body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li#signin {
   display: none;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li.links {
+body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li.links {
   padding: 0 8px;
   display: inline-block;
   font-size: 16px;
@@ -182,17 +182,17 @@ body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li.links {
   text-align: center;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li.links a {
+body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li.links a {
   text-decoration: none;
   -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li.links a:hover {
+body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li.links a:hover {
   color: var(--yellow);
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -201,7 +201,7 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right {
   display: flex;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,14 +209,14 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.n
   gap: 5px;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile img {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile img {
   height: 30px;
   width: 30px;
   border-radius: 50%;
   cursor: pointer;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile div.navigation_profile-dropdown {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown {
   display: none;
   width: 120px;
   position: absolute;
@@ -227,7 +227,7 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.n
   border-radius: 5px;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links {
   padding: 5px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,25 +238,25 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.n
   gap: 5px;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links p.links {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links p.links {
   font-size: 12px;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links p.links a {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links p.links a {
   text-decoration: none;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links:hover p.icon i, body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links:hover p.links a {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links:hover p.icon i, body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links:hover p.links a {
   color: var(--yellow);
   -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.active p.icon i, body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.active p.links a {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.active p.icon i, body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.active p.links a {
   color: var(--yellow);
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right p.cart {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right p.cart {
   margin-left: 5px;
   display: inline-block;
   position: relative;
@@ -269,11 +269,11 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right p.car
   transition: all 350ms ease-in-out;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right p.cart:hover {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right p.cart:hover {
   background-color: var(--secondary-light);
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right p.cart .fa-cart-shopping {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right p.cart .fa-cart-shopping {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -282,7 +282,7 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right p.car
   font-size: 12px;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right p.cart span.cart_orders-quantity {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right p.cart span.cart_orders-quantity {
   position: absolute;
   bottom: -6px;
   right: -6px;
@@ -294,12 +294,12 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right p.car
   font-size: 10px;
 }
 
-body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive {
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive {
   display: none;
 }
 
 @media only screen and (max-width: 750px) {
-  body header.header_burgerhub nav.navigation_burgerhub {
+  body header.header_burgerbites nav.navigation_burgerbites {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: justify;
@@ -309,10 +309,10 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navi
         -ms-flex-align: center;
             align-items: center;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_logo {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_logo {
     display: none;
   }
-  body header.header_burgerhub nav.navigation_burgerhub ul.nav_links {
+  body header.header_burgerbites nav.navigation_burgerbites ul.nav_links {
     display: none;
     margin: 50px 0;
     opacity: 0;
@@ -322,23 +322,23 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navi
     width: 100%;
     height: 100vh;
   }
-  body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li#signin {
+  body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li#signin {
     display: block;
   }
-  body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li.links {
+  body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li.links {
     padding: 8px 0;
     width: 100%;
     display: block;
     font-size: 24px;
   }
-  body header.header_burgerhub nav.navigation_burgerhub ul.nav_links.open {
+  body header.header_burgerbites nav.navigation_burgerbites ul.nav_links.open {
     opacity: 1;
     display: block !important;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right {
     width: 100%;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right div.navigation_profile {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -347,10 +347,10 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navi
         -ms-flex-order: 2;
             order: 2;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right p.cart {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right p.cart {
     display: none;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -365,31 +365,31 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navi
         -ms-flex-order: 1;
             order: 1;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive input[type="checkbox"] {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive input[type="checkbox"] {
     display: none;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive input[type="checkbox"]:checked + div.hamburger-menu div.line-top {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive input[type="checkbox"]:checked + div.hamburger-menu div.line-top {
     top: 50%;
     -webkit-transform: translateY(-50%) rotate(45deg);
             transform: translateY(-50%) rotate(45deg);
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive input[type="checkbox"]:checked + div.hamburger-menu div.line-middle {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive input[type="checkbox"]:checked + div.hamburger-menu div.line-middle {
     -webkit-transform: translateX(-30px);
             transform: translateX(-30px);
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive input[type="checkbox"]:checked + div.hamburger-menu div.line-bottom {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive input[type="checkbox"]:checked + div.hamburger-menu div.line-bottom {
     top: 50%;
     -webkit-transform: translateY(-50%) rotate(-45deg);
             transform: translateY(-50%) rotate(-45deg);
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive div.hamburger-menu {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive div.hamburger-menu {
     position: relative;
     height: 23px;
     width: 30px;
     overflow: hidden;
     cursor: pointer;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive div.hamburger-menu div.line-top, body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive div.hamburger-menu div.line-middle, body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive div.hamburger-menu div.line-bottom {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive div.hamburger-menu div.line-top, body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive div.hamburger-menu div.line-middle, body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive div.hamburger-menu div.line-bottom {
     position: absolute;
     height: 4px;
     border-radius: 15px;
@@ -397,12 +397,12 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navi
     -webkit-transition: all 150ms ease-in;
     transition: all 150ms ease-in;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive div.hamburger-menu div.line-top {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive div.hamburger-menu div.line-top {
     top: 0;
     left: 0px;
     width: 100%;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive div.hamburger-menu div.line-middle {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive div.hamburger-menu div.line-middle {
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -410,26 +410,26 @@ body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navi
     -webkit-transition: all 150ms ease-in;
     transition: all 150ms ease-in;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_right .navigation_responsive div.hamburger-menu div.line-bottom {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive div.hamburger-menu div.line-bottom {
     bottom: 0;
     width: 100%;
   }
-  body header.header_burgerhub.dark {
+  body header.header_burgerbites.dark {
     background-color: var(--primary-dark) !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  body header.header_burgerhub {
+  body header.header_burgerbites {
     padding: 20px 20px;
   }
-  body header.header_burgerhub nav.navigation_burgerhub div.navigation_logo h1.restaurant-name {
+  body header.header_burgerbites nav.navigation_burgerbites div.navigation_logo h1.restaurant-name {
     display: none;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  body header.header_burgerhub nav.navigation_burgerhub ul.nav_links li.links {
+  body header.header_burgerbites nav.navigation_burgerbites ul.nav_links li.links {
     font-size: 18px;
   }
 }
