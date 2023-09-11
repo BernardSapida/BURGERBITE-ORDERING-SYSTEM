@@ -218,7 +218,7 @@ body header.header_burgerbites nav.navigation_burgerbites div.navigation_right d
 
 body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown {
   display: none;
-  width: 120px;
+  width: 160px;
   position: absolute;
   top: 40px;
   right: 0;
@@ -245,6 +245,11 @@ body header.header_burgerbites nav.navigation_burgerbites div.navigation_right d
 body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links p.links a {
   text-decoration: none;
 }
+
+body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown p.icon i {
+    margin-right: 10px;
+}
+
 
 body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links:hover p.icon i, body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links:hover p.links a {
   color: var(--yellow);
@@ -286,12 +291,13 @@ body header.header_burgerbites nav.navigation_burgerbites div.navigation_right p
   position: absolute;
   bottom: -6px;
   right: -6px;
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
   background: var(--danger);
   text-align: center;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 8px;
+  line-height: 1.25;
 }
 
 body header.header_burgerbites nav.navigation_burgerbites div.navigation_right .navigation_responsive {

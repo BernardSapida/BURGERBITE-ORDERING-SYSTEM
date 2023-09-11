@@ -156,6 +156,7 @@ body main section.section_top-seller-burger div.container_top-burger {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 20px;
 }
 
 body main section.section_top-seller-burger div.container_top-burger div.top-burger {
@@ -166,17 +167,17 @@ body main section.section_top-seller-burger div.container_top-burger div.top-bur
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   position: relative;
   margin: 50px 10px;
-  padding: 20px;
-  height: 240px;
+  padding: 60px 20px 20px 20px;
   width: 260px;
+  height: 280px;
   background-color: var(--secondary-dark);
   border-radius: 10px;
 }
@@ -186,6 +187,7 @@ body main section.section_top-seller-burger div.container_top-burger div.top-bur
 }
 
 body main section.section_top-seller-burger div.container_top-burger div.top-burger h1 {
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -196,7 +198,7 @@ body main section.section_top-seller-burger div.container_top-burger div.top-bur
 
 body main section.section_top-seller-burger div.container_top-burger div.top-burger img {
   position: absolute;
-  top: -70px;
+  top: -90px;
   display: block;
   margin: auto;
   margin-bottom: 20px;
@@ -248,7 +250,7 @@ body main section.section_burger-layer div.container_burger-layers div.container
   color: var(--yellow);
 }
 
-body main section.section_burger-layer div.container_burger-layers div.container_burger-contents button {
+body main section.section_burger-layer div.container_burger-layers div.container_burger-contents button.redirect-menu {
   margin: 10px 0;
   background-color: var(--yellow);
   padding: 7px 20px;
@@ -332,7 +334,7 @@ body main section.section_menu-types div.container_menu-types div.container_menu
 
 body main section.section_menu-types div.container_menu-types div.container_menu .menu-description button {
   margin: 10px 0;
-  width: 100px;
+  width: max-content;
   padding: 5px;
   background-color: var(--yellow);
   text-shadow: 0 0 5px var(--secondary-dark);
@@ -436,8 +438,8 @@ body main section.section_profiles div.container_profiles div.container-sphere d
   -webkit-transform: translateX(-20%);
           transform: translateX(-20%);
   left: 30%;
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   background: var(--primary-dark);
   -webkit-animation: rotate-image 30000ms linear infinite;
           animation: rotate-image 30000ms linear infinite;
@@ -448,8 +450,8 @@ body main section.section_profiles div.container_profiles div.container-sphere d
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   right: -50px;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   background: var(--primary-dark);
   -webkit-animation: rotate-image 30000ms linear infinite;
           animation: rotate-image 30000ms linear infinite;
@@ -624,7 +626,7 @@ body main section.section_download-menu div.container_download-menu button:hover
   }
   body main section.section_top-seller-burger div.container_top-burger div.top-burger img {
     position: absolute;
-    top: -70px;
+    top: -90px;
     display: block;
     margin: auto;
     margin-bottom: 20px;
@@ -736,7 +738,7 @@ body main section.section_download-menu div.container_download-menu button:hover
   }
   body main section.section_menu-types div.container_menu-types div.container_menu .menu-description button {
     margin: 5px 0;
-    width: 80px;
+    width: max-content;
     padding: 5px 10px;
     font-size: 8px;
   }

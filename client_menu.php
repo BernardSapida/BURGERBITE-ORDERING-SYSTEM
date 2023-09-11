@@ -385,7 +385,7 @@
                         </div>
                         <div class="container_description">
                             <h1>Barbeque Fries</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Dive into the smoky, savory goodness of our Barbecue Fries, a perfect combination of crispy and mouthwatering barbecue flavor.</p>
                             <div class="container_price-order">
                                 <p class="price">₱119.00</p>
                                 <div class="container_order-quantity">
@@ -407,7 +407,7 @@
                         </div>
                         <div class="container_description">
                             <h1>Cheddar Cheese Fries</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Delight in the creamy, cheesy indulgence of our Cheddar Cheese Fries, a perfect fusion of golden fries and gooey cheddar.</p>
                             <div class="container_price-order">
                                 <p class="price">₱119.00</p>
                                 <div class="container_order-quantity">
@@ -428,8 +428,8 @@
                             <img src="images/menu/Chili_Barbeque_Fries.png" alt="Burger">
                         </div>
                         <div class="container_description">
-                            <h1>Fries Chili Barbeque</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <h1>Chili Barbeque Fries</h1>
+                            <p>Spice up your taste buds with our Chilli Barbecue Fries, where smoky barbecue flavor meets a hint of chili heat combination.</p>
                             <div class="container_price-order">
                                 <p class="price">₱119.00</p>
                                 <div class="container_order-quantity">
@@ -450,8 +450,8 @@
                             <img src="images/menu/Salted_Fries.png" alt="Burger">
                         </div>
                         <div class="container_description">
-                            <h1>Fries Salted</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <h1>Salted Fries</h1>
+                            <p>Savor the mouthwatering simplicity of our Salted Fries, each crispy bite delivering the perfect balance of salted goodness.</p>
                             <div class="container_price-order">
                                 <p class="price">₱79.00</p>
                                 <div class="container_order-quantity">
@@ -472,8 +472,8 @@
                             <img src="images/menu/Sour_Cream_Fries.png" alt="Burger">
                         </div>
                         <div class="container_description">
-                            <h1>Fries Sour Cream</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <h1>Sour Cream Fries</h1>
+                            <p>Creamy delight of our Sour Cream Fries, where the rich, tangy goodness of sour cream perfectly complements our crispy golden fries.</p>
                             <div class="container_price-order">
                                 <p class="price">₱119.00</p>
                                 <div class="container_order-quantity">
@@ -494,8 +494,8 @@
                             <img src="images/menu/Wasabi_Fries.png" alt="Burger">
                         </div>
                         <div class="container_description">
-                            <h1>Fries Wasabi</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <h1>Wasabi Fries</h1>
+                            <p>Add a kick of bold and fiery flavor to your fries with our Wasabi Fries, a spicy twist on the classic that will leave your taste buds tingling.</p>
                             <div class="container_price-order">
                                 <p class="price">₱119.00</p>
                                 <div class="container_order-quantity">
@@ -524,7 +524,7 @@
                         </div>
                         <div class="container_description">
                             <h1>Avocado Shake</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Indulge in the velvety richness of our Avocado Shake, a creamy and nutritious blend that's as satisfying as it is refreshing.</p>
                             <div class="container_price-order">
                                 <p class="price">₱149.00</p>
                                 <div class="container_order-quantity">
@@ -546,7 +546,7 @@
                         </div>
                         <div class="container_description">
                             <h1>Berry Shake</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Sip on the sweet and refreshing goodness of our Berry Shake, a delightful blend of ripe to brighten your day with every taste.</p>
                             <div class="container_price-order">
                                 <p class="price">₱149.00</p>
                                 <div class="container_order-quantity">
@@ -568,7 +568,7 @@
                         </div>
                         <div class="container_description">
                             <h1>Lemonade Shake</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Experience a burst of zesty freshness with our Lemon Shake, a tangy and invigorating treat for a sunny day or any day.</p>
                             <div class="container_price-order">
                                 <p class="price">₱149.00</p>
                                 <div class="container_order-quantity">
@@ -590,7 +590,7 @@
                         </div>
                         <div class="container_description">
                             <h1>Mango Shake</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Savor the tropical bliss of our Mango Shake, a luscious and velvety blend that transports your taste buds to paradise with every sip.</p>
                             <div class="container_price-order">
                                 <p class="price">₱149.00</p>
                                 <div class="container_order-quantity">
@@ -612,7 +612,7 @@
                         </div>
                         <div class="container_description">
                             <h1>Pineapple Shake</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Escape to a tropical paradise with our Pineapple Shake, a sweet and tangy concoction that will whisk your taste buds away to sun-kissed shores.</p>
                             <div class="container_price-order">
                                 <p class="price">₱149.00</p>
                                 <div class="container_order-quantity">
@@ -634,7 +634,7 @@
                         </div>
                         <div class="container_description">
                             <h1>Strawberry Shake</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Indulge in the pure sweetness of our Strawberry Shake, a creamy delight bursting with the irresistible flavor of freshly picked strawberries.</p>
                             <div class="container_price-order">
                                 <p class="price">₱149.00</p>
                                 <div class="container_order-quantity">

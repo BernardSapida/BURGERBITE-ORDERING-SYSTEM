@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     let names = ["Zildjian Lee G. Loren", "John Herson L. Radones", "Jan Marichie Z. Mojica", "Bernard V. Sapida"];
     let quotes = [
         "We come up with new and creative ways to delight our customers and meet their needs.",
@@ -15,7 +15,11 @@ $(document).ready(function(){
     ];
     let index = 0;
 
-    setInterval(function(){
+    $(".redirect").click(function () {
+        window.location.href = '/burgerbites/menu.php';
+    });
+
+    setInterval(function () {
         $('#name').text(names[index]).hide();
         $('#quote').text(quotes[index]).hide();
         $('#position').text(positions[index]).hide();

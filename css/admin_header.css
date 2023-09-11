@@ -182,7 +182,7 @@ body header.header_burgerbites nav.navigation_burgerbites div.navigation_right d
 
 body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown {
   display: none;
-  width: 160px;
+  width: 210px;
   position: absolute;
   top: 40px;
   right: 0;
@@ -203,6 +203,7 @@ body header.header_burgerbites nav.navigation_burgerbites div.navigation_right d
 }
 
 body header.header_burgerbites nav.navigation_burgerbites div.navigation_right div.navigation_profile div.navigation_profile-dropdown div.dropdown_links p.icon {
+  margin-right: 10px;
   display: -ms-grid;
   display: grid;
   place-items: center;

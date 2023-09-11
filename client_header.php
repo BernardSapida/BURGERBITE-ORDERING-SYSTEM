@@ -30,10 +30,6 @@
                         <p class="links"><a href="client_status.php">Order Status</a></p>
                     </div>
                     <div class="dropdown_links">
-                        <p class="icon"><i class="fa-solid fa-circle-info"></i></p>
-                        <p class="links"><a href="">Legal Terms</a></p>
-                    </div>
-                    <div class="dropdown_links">
                         <p class="icon"><i class="fa-solid fa-arrow-right-from-bracket"></i></p>
                         <p class="links"><a href="signout.php">Sign Out</a></p>
                     </div>

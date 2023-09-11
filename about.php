@@ -38,7 +38,7 @@
                 <div class="container_story-description">
                     <h1>About Our Story</h1>
                     <p>In 2021, a four freshmen college students named Bernard Sapida, Zildjian Lee Loren, Jan Marichie Mojica and John Herson Radones looked to create a restaurant idea of their own in Imus, Cavite. In the same year, they took a risk by founding their own burger restaurant and decided to name it BurgerBites. The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.</p>
-                    <button class="redirect-menu" type="button">VIEW FULL MENU</button>
+                    <button class="redirect" type="button">VIEW FULL MENU</button>
                 </div>
                 <div class="container_story-image">
                     <img src="images/about/about-story.jpg" alt="BurgerBites Story Image">

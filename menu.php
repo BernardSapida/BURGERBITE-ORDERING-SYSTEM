@@ -41,10 +41,10 @@
                     </div>
                     <div class="container_description">
                             <h1>Spicy Lamb Burger</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Lamb, fresh chilli, lettuce, carrot, red onion, and feta cheese.</p>
                             <div class="container_price-order">
                                 <p class="price">₱250.00</p>
-                                <button class="redirect-signin">Order Now</button>
+                                <button class="redirect">Order Now</button>
                             </div>
                         </div>
                 </div>
@@ -54,10 +54,10 @@
                     </div>
                     <div class="container_description">
                             <h1>Surf 'n Turf Burger</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Ground beef, shrimp, breadcrumbs, swiss cheese, mayonnaise, and mustard.</p>
                             <div class="container_price-order">
                                 <p class="price">₱299.00</p>
-                                <button class="redirect-signin">Order Now</button>
+                                <button class="redirect">Order Now</button>
                             </div>
                         </div>
                 </div>
@@ -67,17 +67,17 @@
                     </div>
                     <div class="container_description">
                             <h1>Peppercorm Burger</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                            <p>Ground beef, barbeque sauce, yellow onions, ground peppercorn, mature cheddar cheese, tomato, pickles, and lettuce.</p>
                             <div class="container_price-order">
                                 <p class="price">₱199.00</p>
-                                <button class="redirect-signin">Order Now</button>
+                                <button class="redirect">Order Now</button>
                             </div>
                         </div>
                 </div>
             </div>
         </section>
 
-        <!-- BurgerBites Featured Products -->
+        <!-- BurgerBites Burgers -->
         <section class="section_burgers-menu">
             <h1>Our Burgers</h1>
             <div class="container_burgers-menu">
@@ -90,7 +90,7 @@
                             <p>Lamb, fresh chilli, lettuce, carrot, red onion, and feta cheese.</p>
                             <div class="container_price-order">
                                 <p class="price">₱250.00</p>
-                                <button class="redirect-signin">Order Now</button>
+                                <button class="redirect">Order Now</button>
                             </div>
                         </div>
                 </div>
@@ -103,7 +103,7 @@
                             <p>Ground beef, shrimp, breadcrumbs, swiss cheese, mayonnaise, and mustard.</p>
                             <div class="container_price-order">
                                 <p class="price">₱299.00</p>
-                                <button class="redirect-signin">Order Now</button>
+                                <button class="redirect">Order Now</button>
                             </div>
                         </div>
                 </div>
@@ -116,7 +116,7 @@
                             <p>Ground beef, barbeque sauce, yellow onions, ground peppercorn, mature cheddar cheese, tomato, pickles, and lettuce.</p>
                             <div class="container_price-order">
                                 <p class="price">₱199.00</p>
-                                <button class="redirect-signin">Order Now</button>
+                                <button class="redirect">Order Now</button>
                             </div>
                         </div>
                 </div>
@@ -129,7 +129,7 @@
                             <p>Onion, celery, parsley leaves, chickpeas, tomato, lettuce, and garam masala.</p>
                             <div class="container_price-order">
                                 <p class="price">₱149.00</p>
-                                <button class="redirect-signin">Order Now</button>
+                                <button class="redirect">Order Now</button>
                             </div>
                         </div>
                 </div>
@@ -142,7 +142,7 @@
                         <p>Ground beef, dry onion soup mix, chilli sauce, jack cheese, green bell, and black pepper.</p>
                         <div class="container_price-order">
                             <p class="price">₱249.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -155,14 +155,14 @@
                         <p>Beef, tomato, lettuce, red onion, pickles, mayonnaise, and ketchup.</p>
                         <div class="container_price-order">
                             <p class="price">₱199.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- BurgerBites Burgers -->
+        <!-- BurgerBites Pizza -->
         <section class="section_pizza-menu">
             <h1>Our Pizza</h1>
             <div class="container_pizza-menu">
@@ -175,7 +175,7 @@
                         <p>12 inch (Medium) and good for 3-4 people.</p>
                         <div class="container_price-order">
                             <p class="price">₱489.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -188,7 +188,7 @@
                         <p>12 inch (Medium) and good for 3-4 people.</p>
                         <div class="container_price-order">
                             <p class="price">₱489.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@
                         <p>12 inch (Medium) and good for 3-4 people.</p>
                         <div class="container_price-order">
                             <p class="price">₱489.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
                         <p>12 inch (Medium) and good for 3-4 people.</p>
                         <div class="container_price-order">
                             <p class="price">₱489.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                         <p>12 inch (Medium) and good for 3-4 people.</p>
                         <div class="container_price-order">
                             <p class="price">₱489.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
                         <p>12 inch (Medium) and good for 3-4 people.</p>
                         <div class="container_price-order">
                             <p class="price">₱489.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -253,14 +253,14 @@
             <div class="container_fries-menu">
                 <div class="container_fries">
                     <div class="container_image">
-                        <img src="images/menu/Salted_Fries.png" alt="Fries">
+                        <img src="images/menu/Barbeque_Fries.png" alt="Fries">
                     </div>
                     <div class="container_description">
-                        <h1>Salted Fries</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <h1>Barbeque Fries</h1>
+                        <p>Dive into the smoky, savory goodness of our Barbecue Fries, a perfect combination of crispy and mouthwatering barbecue flavor.</p>
                         <div class="container_price-order">
                             <p class="price">₱119.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -270,10 +270,10 @@
                     </div>
                     <div class="container_description">
                         <h1>Cheddar Cheese Fries</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <p>Delight in the creamy, cheesy indulgence of our Cheddar Cheese Fries, a perfect fusion of golden fries and gooey cheddar.</p>
                         <div class="container_price-order">
                             <p class="price">₱119.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -283,10 +283,10 @@
                     </div>
                     <div class="container_description">
                         <h1>Chilli Barbeque Fries</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <p>Spice up your taste buds with our Chilli Barbecue Fries, where smoky barbecue flavor meets a hint of chili heat combination.</p>
                         <div class="container_price-order">
                             <p class="price">₱119.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -296,10 +296,10 @@
                     </div>
                     <div class="container_description">
                         <h1>Salted Fries</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <p>Savor the mouthwatering simplicity of our Salted Fries, each crispy bite delivering the perfect balance of salted goodness.</p>
                         <div class="container_price-order">
                             <p class="price">₱119.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -309,10 +309,10 @@
                     </div>
                     <div class="container_description">
                         <h1>Sour Cream Fries</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <p>Creamy delight of our Sour Cream Fries, where the rich, tangy goodness of sour cream perfectly complements our crispy golden fries.</p>
                         <div class="container_price-order">
                             <p class="price">₱119.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -322,10 +322,10 @@
                     </div>
                     <div class="container_description">
                         <h1>Wasabi Fries</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <p>Add a kick of bold and fiery flavor to your fries with our Wasabi Fries, a spicy twist on the classic that will leave your taste buds tingling.</p>
                         <div class="container_price-order">
                             <p class="price">₱119.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -342,10 +342,10 @@
                     </div>
                     <div class="container_description">
                         <h1>Avocado Shake</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <p>Indulge in the velvety richness of our Avocado Shake, a creamy and nutritious blend that's as satisfying as it is refreshing.</p>
                         <div class="container_price-order">
                             <p class="price">₱149.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -355,10 +355,10 @@
                     </div>
                     <div class="container_description">
                         <h1>Berry Shake</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <p>Sip on the sweet and refreshing goodness of our Berry Shake, a delightful blend of ripe to brighten your day with every taste.</p>
                         <div class="container_price-order">
                             <p class="price">₱149.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -367,11 +367,11 @@
                         <img src="images/menu/Lemonade_Shake.png" alt="Shake">
                     </div>
                     <div class="container_description">
-                        <h1>Limonata Shake</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <h1>Lemon Shake</h1>
+                        <p>Experience a burst of zesty freshness with our Lemon Shake, a tangy and invigorating treat for a sunny day or any day.</p>
                         <div class="container_price-order">
                             <p class="price">₱149.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -381,10 +381,10 @@
                     </div>
                     <div class="container_description">
                         <h1>Mango Shake</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <p>Savor the tropical bliss of our Mango Shake, a luscious and velvety blend that transports your taste buds to paradise with every sip.</p>
                         <div class="container_price-order">
                             <p class="price">₱149.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -393,11 +393,11 @@
                         <img src="images/menu/Pineapple_Shake.png" alt="Shake">
                     </div>
                     <div class="container_description">
-                        <h1>Ananas Shake</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <h1>Pineapple Shake</h1>
+                        <p>Escape to a tropical paradise with our Pineapple Shake, a sweet and tangy concoction that will whisk your taste buds away to sun-kissed shores.</p>
                         <div class="container_price-order">
                             <p class="price">₱149.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -406,11 +406,11 @@
                         <img src="images/menu/Strawberry_Shake.png" alt="Shake">
                     </div>
                     <div class="container_description">
-                        <h1>Fragola Shake</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  dolor sit amet.</p>
+                        <h1>Strawberry Shake</h1>
+                        <p>Indulge in the pure sweetness of our Strawberry Shake, a creamy delight bursting with the irresistible flavor of freshly picked strawberries.</p>
                         <div class="container_price-order">
                             <p class="price">₱149.00</p>
-                            <button class="redirect-signin">Order Now</button>
+                            <button class="redirect">Order Now</button>
                         </div>
                     </div>
                 </div>
@@ -419,5 +419,6 @@
     </main>
 
     <?php include_once 'global_footer.php' ?>
+    <script src="js/menu.js"></script>
 </body>
 </html>

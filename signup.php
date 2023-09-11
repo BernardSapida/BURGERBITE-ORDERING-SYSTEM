@@ -43,7 +43,7 @@
               	$signup_success = true;
                 $encryptPassword = password_hash($password, PASSWORD_DEFAULT);
 
-                $connect = mysqli_connect("localhost", "yoyiqlnx_burgerbites", "@Burgerbites1708131117", "yoyiqlnx_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
+                $connect = mysqli_connect("localhost", "yoyiqlnx_burgerbites", "@Burgerbites1708131117", "yoyiqlnx_burgerbites"); or die("ERROR: Could not connect. " .  $connect->connect_error);
                 $sqlAccounts = "INSERT INTO client_accounts (`clientid`, `image`, `fullname`, `email`, `password`, `type`)
                 VALUES ('$uid', '$image', '$firstname $lastname', '$email', '$encryptPassword', '$type')";
                 mysqli_query($connect, $sqlAccounts);

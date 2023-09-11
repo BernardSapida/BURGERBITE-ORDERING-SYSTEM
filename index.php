@@ -44,7 +44,7 @@
                 <div class="container_description">
                     <div class="line"></div>
                     <h1 class="tagline">RAIN OR SHINE<br>IT'S TIME TO DINE</h1>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna sit amet purus gravida.</p>
+                    <p class="description">Welcome to BurgerBites, where every bite is a flavor-packed adventure! Our passion for crafting the perfect burger is your ticket to burger bliss. We're here to satisfy your cravings, one delicious bite at a time.</p>
                     <p class="discount">50% OFF</p>
                     <div class="container_contact-info">
                         <div class="accounts">
@@ -99,7 +99,7 @@
                     <h1 class="burger-name">American Classic Burger</h1>
                     <p class="burger-description">Beef, tomato, lettuce, red onion, pickles, mayonnaise, and ketchup.</p>
                     <p class="price">Php 199.00</p>
-                    <button type="button" class="redirect-menu">ORDER NOW</button>
+                    <button type="button" class="redirect-menu redirect">ORDER NOW</button>
                 </div>
             </div>
         </section>
@@ -111,36 +111,36 @@
                     <img src="images/home/home-fruit-shakes.jpg" alt="Fruit Shake">
                     <div class="menu-description">
                         <h1>Fruit Shakes</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Savor the refreshing essence of our luscious fruit shakes.</p>
                         <p>Php 149</p>
-                        <button>ORDER NOW</button>
+                        <button class="redirect">ORDER NOW</button>
                     </div>
                 </div>
                 <div class="container_menu">
                     <img src="images/home/home-hambuger.jpg" alt="Hamburger">
                     <div class="menu-description">
                         <h1>BURGER</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p>Php 149</p>
-                        <button>ORDER NOW</button>
+                        <p>Satisfy your cravings with our mouthwatering burgers today!</p>
+                        <p>Php 199-250</p>
+                        <button class="redirect">ORDER NOW</button>
                     </div>
                 </div>
                 <div class="container_menu">
                     <img src="images/home/home-pizza.jpg" alt="Pizza">
                     <div class="menu-description">
                         <h1>PIZZA</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p>Php 149</p>
-                        <button>ORDER NOW</button>
+                        <p>Each slice of pizza is a heavenly, cheesy delight.</p>
+                        <p>Php 489</p>
+                        <button class="redirect">ORDER NOW</button>
                     </div>
                 </div>
                 <div class="container_menu">
                     <img src="images/home/home-fries.jpg" alt="Fries">
                     <div class="menu-description">
                         <h1>FRIES</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p>Php 149</p>
-                        <button>ORDER NOW</button>
+                        <p>Each slice of pizza is a heavenly, cheesy delight.</p>
+                        <p>Php 119</p>
+                        <button class="redirect">ORDER NOW</button>
                     </div>
                 </div>
             </div>
@@ -151,16 +151,16 @@
             <div class="container_profiles">
                 <div class="container-sphere">
                     <div class="image_centered">
-                        <img src="images/profiles/Profile.png" alt="">
+                        <img src="images/profiles/Sapida.png" alt="">
                     </div>
                     <div class="image_circumference">
                         <img src="images/profiles/Mojica.jpg" alt="">
                     </div>
                     <div class="image_circumference">
-                        <img src="images/profiles/Mojica.jpg" alt="">
+                        <img src="images/profiles/Herson.jpg" alt="">
                     </div>
                     <div class="image_circumference">
-                        <img src="images/profiles/Mojica.jpg" alt="">
+                        <img src="images/profiles/Loren.jpg" alt="">
                     </div>
                 </div>
                 <div class="container_profile-quotes">

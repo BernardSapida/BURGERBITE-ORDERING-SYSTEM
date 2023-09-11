@@ -14,7 +14,6 @@
         </ul>
         <div class="navigation_right">
             <button type="button" class="button_signin">SIGN IN</button>
-            <p class="cart"><i class="fa-solid fa-cart-shopping"></i><span class="cart_orders-quantity">0</span></p>
             <label for="hamburger-menu" class="navigation_responsive" id="navigation_responsive">
                 <input type="checkbox" id="hamburger-menu" aria-label="Hamburger Navigation">
                 <div class="hamburger-menu">
