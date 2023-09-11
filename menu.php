@@ -15,23 +15,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
-  	<meta property="og:title" content="Burgerhub Restaurant | Menu">
-    <meta property="og:url" content="https://burgerhub.x10.mx/menu.php">
+  	<meta property="og:title" content="BurgerBites Restaurant | Menu">
+    <meta property="og:url" content="https://BurgerBites.x10.mx/menu.php">
     <meta property="og:image" content="images/website-image.jpg">
-    <link rel="icon" type="image/any-icon" href="images/burgerhub.ico">
+    <link rel="icon" type="image/any-icon" href="images/burgerbites.ico">
     <link rel="stylesheet" href="css/client_header.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <title>BurgerHub</title>
+    <title>BurgerBites</title>
 </head>
 <body>
     <?php include_once 'header.php' ?>
 
-    <!-- BurgerHub Menu -->
+    <!-- BurgerBites Menu -->
     <main>
-        <!-- BurgerHub Featured Products -->
+        <!-- BurgerBites Featured Products -->
         <section class="section_featured-products">
             <h1>Best Seller</h1>
             <div class="container_featured-products">
@@ -77,7 +77,7 @@
             </div>
         </section>
 
-        <!-- BurgerHub Featured Products -->
+        <!-- BurgerBites Featured Products -->
         <section class="section_burgers-menu">
             <h1>Our Burgers</h1>
             <div class="container_burgers-menu">
@@ -162,7 +162,7 @@
             </div>
         </section>
 
-        <!-- BurgerHub Burgers -->
+        <!-- BurgerBites Burgers -->
         <section class="section_pizza-menu">
             <h1>Our Pizza</h1>
             <div class="container_pizza-menu">
@@ -247,7 +247,7 @@
             </div>
         </section>
 
-        <!-- BurgerHub Fries -->
+        <!-- BurgerBites Fries -->
         <section class="section_fries-menu">
             <h1>Our Fries</h1>
             <div class="container_fries-menu">
@@ -332,7 +332,7 @@
             </div>
         </section>
 
-        <!-- BurgerHub Drinks -->
+        <!-- BurgerBites Drinks -->
         <section class="section_drinks-menu">
             <h1>Our Drinks</h1>
             <div class="container_drinks-menu">

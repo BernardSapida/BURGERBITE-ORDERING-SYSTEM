@@ -47,13 +47,13 @@
                 // $mail->Port       = 587;                                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                 //Recipients
-                // $mail->setFrom('burgerhub.service@outlook.com', 'BurgerHub Service');
+                // $mail->setFrom('BurgerBites.service@outlook.com', 'BurgerBites Service');
                 // $mail->addAddress($email, $name);                                           //Add a recipient & Name is optional
-                // $mail->addReplyTo('burgerhub.service@outlook.com', 'Reply');
+                // $mail->addReplyTo('BurgerBites.service@outlook.com', 'Reply');
 
                 // Content
                 // $mail->isHTML(true);                                                        //Set email format to HTML
-                // $mail->Subject = 'Message from BurgerHub';
+                // $mail->Subject = 'Message from BurgerBites';
                 // $mail->Body    = $_SESSION["email_message-received"];
                 // $mail->AltBody = 'Hello, ' . $name . '! We received your message from Contact Us. Thank you for reaching us out and we will try out best to respond soonest!';
 
@@ -94,10 +94,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
-  	<meta property="og:title" content="Burgerhub Restaurant | Contact Us">
-    <meta property="og:url" content="https://burgerhub.x10.mx/contact-us.php">
+  	<meta property="og:title" content="BurgerBites Restaurant | Contact Us">
+    <meta property="og:url" content="https://BurgerBites.x10.mx/contact-us.php">
     <meta property="og:image" content="images/website-image.jpg">
-    <link rel="icon" type="image/any-icon" href="images/burgerhub.ico">
+    <link rel="icon" type="image/any-icon" href="images/burgerbites.ico">
     <?php
         if(empty($_SESSION["email"])) echo '<link rel="stylesheet" href="css/header.css">'; 
         if($_SESSION["type"] == "client") echo '<link rel="stylesheet" href="css/client_header.css">'; 
@@ -105,14 +105,14 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <title>BurgerHub</title>
+    <title>BurgerBites</title>
 </head>
 <body>
     <?php include_once 'header.php' ?>
     
-    <!-- BurgerHub Contact Us Page -->
+    <!-- BurgerBites Contact Us Page -->
     <main>
-        <!-- BurgerHub Contact Map -->
+        <!-- BurgerBites Contact Map -->
         <section class="section_contact-page">
             <div class="container_map">
                 <h1>Contact Us</h1>
@@ -120,7 +120,7 @@
             </div>
         </section>
 
-        <!-- BurgerHub Contact Form -->
+        <!-- BurgerBites Contact Form -->
         <section class="section_contact-form">
             <div class="container_contact">
                 <div class="container_form">

@@ -62,25 +62,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="BERNARD V. SAPIDA, JAN MARICHIE Z. MOJICA, ZILDJIAN LEE G. LOREN, JOHN HERSON L. RADONES">
   	<meta name="description" content="The owners dreamed of creating a burger restaurant in which the customers could not only eat, but one that offered a friendly and healthy environment. The restaurant’s success led them to begin franchising their concept, becoming operating restaurants.">
-  	<meta property="og:title" content="Burgerhub Restaurant | Sign In">
-    <meta property="og:url" content="https://burgerhub.x10.mx/signin.php">
+  	<meta property="og:title" content="BurgerBites Restaurant | Sign In">
+    <meta property="og:url" content="https://BurgerBites.x10.mx/signin.php">
     <meta property="og:image" content="images/website-image.jpg">
-    <link rel="icon" type="image/any-icon" href="images/burgerhub.ico">
+    <link rel="icon" type="image/any-icon" href="images/burgerbites.ico">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/signin.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>BurgerHub</title>
+    <title>BurgerBites</title>
 </head>
 <body>
     <?php include_once 'header.php' ?>
 
-    <!-- BurgerHub Sign Up Page -->
+    <!-- BurgerBites Sign Up Page -->
     <main>
         <section class="section_signin">
             <div class="container_signin">
                 <div class="container_title">
-                    <h1>Sign In to BurgerHub</h1>
+                    <h1>Sign In to BurgerBites</h1>
                     <p>New user? <a href="signup.php">Create an account</a></p>
                 </div>
                 <div class="container_form">

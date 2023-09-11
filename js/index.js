@@ -3,7 +3,7 @@ $(document).ready(function(){
     let quotes = [
         "We come up with new and creative ways to delight our customers and meet their needs.",
         "We make a difference in the neighbourhoods and communities that we serve.",
-        "Our employees understand that not only do they have a job with BurgerHub, but they also understand they can grow that job into a career.",
+        "Our employees understand that not only do they have a job with BurgerBites, but they also understand they can grow that job into a career.",
         "Individual commitment to a team effort that is what makes a team work, a company work, a society work, and a civilization work.",
     ];
     let positions = ["Manager", "Head Chef", "Assistant Chef", "Chief Executive Officer"];
