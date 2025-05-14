@@ -21,7 +21,7 @@
 
         if(!empty($email)) {
             if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                $connect = mysqli_connect("localhost", "root", "", "yoyiqlnx_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
+                $connect = mysqli_connect("localhost", "krwxaicr_burgerbites", "zN4z6w7vpzqe68NCD4H6", "krwxaicr_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
                 $sql_accounts = "SELECT * FROM client_accounts where email = '" . $email . "'";
                 $result = mysqli_query($connect, $sql_accounts);
                 $row_result = mysqli_fetch_array($result);

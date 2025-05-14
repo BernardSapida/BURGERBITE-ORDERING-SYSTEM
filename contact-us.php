@@ -29,7 +29,7 @@
 
 
         if(!empty($name) && !empty($email) && !empty($subject) && !empty($message)) {
-            $connect = mysqli_connect("localhost", "root", "", "yoyiqlnx_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);;
+            $connect = mysqli_connect("localhost", "krwxaicr_burgerbites", "zN4z6w7vpzqe68NCD4H6", "krwxaicr_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);;
             $sql = "INSERT INTO client_messages (image, fullname, email, subject, message) VALUES ('default.jpg', '$name', '$email', '$subject', '$message')";
             mysqli_query($connect, $sql);
 

@@ -23,7 +23,7 @@
                 if($newPassword == $confirmPassword && empty($errNewPassword)) {
                     $encryptPassword = password_hash($newPassword, PASSWORD_DEFAULT);
 
-                    $connect = mysqli_connect("localhost", "root", "", "yoyiqlnx_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
+                    $connect = mysqli_connect("localhost", "krwxaicr_burgerbites", "zN4z6w7vpzqe68NCD4H6", "krwxaicr_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
                     $sql_accounts = "UPDATE client_accounts SET password = '$encryptPassword' WHERE email = '" . $_SESSION['token_email'] . "'";
                     $result = mysqli_query($connect, $sql_accounts);
                     

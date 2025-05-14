@@ -59,7 +59,7 @@
             $orderNo = explode(".", uniqid("",true))[1];
             $status = "Pending";
 
-            $connect = mysqli_connect("localhost", "root", "", "yoyiqlnx_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
+            $connect = mysqli_connect("localhost", "krwxaicr_burgerbites", "zN4z6w7vpzqe68NCD4H6", "krwxaicr_burgerbites") or die("ERROR: Could not connect. " .  $connect->connect_error);
             $sql = "INSERT INTO `client_orders`
             (`clientid`, `firstname`, `lastname`, `image`, `street address`, `city`, `barangay`, `transactionNo`, `orderNo`, 
             `featured-product-1`, `featured-product-2`, `featured-product-3`, 
@@ -79,7 +79,6 @@
             '$quantity','$total','$status')";
 
             mysqli_query($connect, $sql);
-          	echo("Error description: " . mysqli_error($connect));
             
             $_SESSION["featured-product-1"] = 0;
             $_SESSION["featured-product-2"] = 0;
